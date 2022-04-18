@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<body>
+    
+    <input id="data" type="text" name="name" />
+    <input type="submit" value="测试"  onclick="test()"/>
+    <br>
+    <input type="submit" value="上传图片"  onclick="image_update()"/>
+    <br>
+    <input type="file" id="fileInput"/>
+    
+    <div class="wrap-image">
+        <img id="imageUpload" src="xxx.jpg" alt="Smiley face" />
+        <canvas id="canvasOutput"></canvas>
+    </div>
+
+    </body>
+
+<script>
+
+    let imgElement = document.getElementById('imageUpload');
+    let inputElement = document.getElementById('fileInput');
+
+    inputElement.onchange = function() {
+        imgElement.src = URL.createObjectURL(event.target.files[0]);
+    }
+
+    function test()
+    {
+        var  xxx;
+        xxx=document.getElementById("data").value;
+        console.log(xxx);
+        var upload_path = "/upload/" + xxx;
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("POST", upload_path, true);
+        xhttp.send(xxx);
+
+    }
+    function image_update()
+    {
+        var image=new Array();
+        let src = cv.imread('imageUpload');
+        let dst = new cv.Mat();
+        let dsize = new cv.Size(212, 104);
+        cv.resize(src, src, dsize, 0, 0, cv.INTER_AREA);
+        cv.cvtColor(src, src, cv.COLOR_RGBA2GRAY, 0);
+        cv.adaptiveThreshold(src, dst, 255, cv.ADAPTIVE_THRESH_GAUSSIAN_C, cv.THRESH_BINARY, 3, 2);
+        cv.imshow('canvasOutput', dst);
+        for (let col = 0; col < 212; col++) {
+            for (let row = 0; row <104; row++) {
+                let h=dst.data[row * dst.cols * dst.channels() + col * dst.channels()];
+                //console.log("img="+image[212*row+col]+"row="+row+"col="+col);
+                //黑为0 白为1
+                if(Number(h)==0)
+                {
+                    //image[Math.trunc(row/8)+col*13] 纵走
+                    //image[Math.trunc(row/8)+Math.trunc(row/8)*212] 横走
+                    image[image[col+Math.trunc(row/8)*212]]&= ~(1 << (row%8));
+                }
+                else if(Number(h)==255)
+                {
+                    image[col+Math.trunc(row/8)*212]|= 0x01 << (row % 8); 
+                }
+                //console.log("img="+image[Math.trunc(row/8)+col*13]+"row="+row+"col="+col);
+            }
+        }
+        var ooo={
+            "name":"image",
+            "date":""
+        };
+
+        for (let index = 0; index < 212*104/8; index++) {
+            ooo.date=ooo.date+String.fromCharCode(image[index]);
+        }
+         var xhttp = new XMLHttpRequest();
+         xhttp.open("POST", "/upload/image", true);
+        xhttp.send(JSON.stringify(ooo));
+        src.delete(); dst.delete();
+    }
+    function onOpenCvReady()
+    {
+        console.log("opencv.js加载完成");
+    }
+</script>
+    <script async src="https://docs.opencv.org/4.5.3/opencv.js" onload="onOpenCvReady();" type="text/javascript">
+    </script>
+</body>
+</html>

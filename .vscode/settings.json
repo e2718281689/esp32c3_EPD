@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "cstdlib": "c",
+        "web_serve.h": "c",
+        "spiffs_flash.h": "c",
+        "fatfs_sd.h": "c",
+        "main.h": "c",
+        "ratio": "c",
+        "fsdf.h": "c",
+        "img_epd.h": "c",
+        "sdmmc_common.h": "c",
+        "spi_common_internal.h": "c",
+        "epd.h": "c"
+    }
+}
