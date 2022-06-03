@@ -106,6 +106,7 @@ static esp_err_t ret_upload_post_handler(httpd_req_t *req)
             httpd_resp_send_err(req, HTTPD_500_INTERNAL_SERVER_ERROR, "Failed to write file to storage");
             return ESP_FAIL;
         }
+    fwrite(buf, sizeof(buf) , 1, fd );
     ESP_LOGI(TAG, "File written");
     /* Keep track of remaining size of
      * the file left to be uploaded */

@@ -38,7 +38,10 @@
     }
     function image_update()
     {
-        var image=new Array();
+
+        var buffer = new ArrayBuffer(212*104/8);
+        var image = new Uint8Array(buffer)
+        //var image=new Array();
         let src = cv.imread('imageUpload');
         let dst = new cv.Mat();
         let dsize = new cv.Size(212, 104);
@@ -74,7 +77,8 @@
         }
          var xhttp = new XMLHttpRequest();
          xhttp.open("POST", "/upload/image", true);
-        xhttp.send(JSON.stringify(ooo));
+        //xhttp.send(JSON.stringify(ooo));
+        xhttp.send(image);
         src.delete(); dst.delete();
     }
     function onOpenCvReady()

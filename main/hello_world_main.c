@@ -28,6 +28,18 @@ void app_main(void)
     EPD_init();
 
 
+    // char *filepath = "/www/sa.txt";
+    // FILE *fd = NULL;
+    // fd = fopen(filepath, "r");
+    // if(!fd)
+    // {
+    //     ESP_LOGE(TAG, "/www/sa.txt未打开");
+    // }
+    // char xxx[3000]={0};
+    // fgets(xxx,3000,fd);
+    // printf("%s ",xxx);
+
+
 
 
 }
