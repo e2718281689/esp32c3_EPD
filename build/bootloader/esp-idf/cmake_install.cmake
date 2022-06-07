@@ -1,4 +1,4 @@
-# Install script for directory: /home/cjia/esp/esp-idf
+# Install script for directory: /home/cjia/esp/esp-idf-v4.4.1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,15 +34,15 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/home/cjia/.espressif/tools/riscv32-esp-elf/esp-2021r2-8.4.0/riscv32-esp-elf/bin/riscv32-esp-elf-objdump")
+  set(CMAKE_OBJDUMP "/home/cjia/.espressif/tools/riscv32-esp-elf/esp-2021r2-patch3-8.4.0/riscv32-esp-elf/bin/riscv32-esp-elf-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/cjia/esp/hello_world/build/bootloader/esp-idf/newlib/cmake_install.cmake")
+  include("/home/cjia/esp/hello_world/build/bootloader/esp-idf/hal/cmake_install.cmake")
   include("/home/cjia/esp/hello_world/build/bootloader/esp-idf/soc/cmake_install.cmake")
   include("/home/cjia/esp/hello_world/build/bootloader/esp-idf/micro-ecc/cmake_install.cmake")
-  include("/home/cjia/esp/hello_world/build/bootloader/esp-idf/hal/cmake_install.cmake")
   include("/home/cjia/esp/hello_world/build/bootloader/esp-idf/spi_flash/cmake_install.cmake")
   include("/home/cjia/esp/hello_world/build/bootloader/esp-idf/bootloader_support/cmake_install.cmake")
   include("/home/cjia/esp/hello_world/build/bootloader/esp-idf/efuse/cmake_install.cmake")

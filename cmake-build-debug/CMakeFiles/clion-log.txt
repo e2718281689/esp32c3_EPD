@@ -1,0 +1,44 @@
+/home/cjia/clion-2022.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/cjia/clion-2022.1.2/bin/ninja/linux/ninja -G Ninja -S /home/cjia/esp/hello_world -B /home/cjia/esp/hello_world/cmake-build-debug
+CMake Warning at /home/cjia/esp/esp-idf-v4.4.1/tools/cmake/idf.cmake:24 (message):
+  IDF_PATH environment variable not found.  Setting IDF_PATH to
+  '/home/cjia/esp/esp-idf-v4.4.1'.
+Call Stack (most recent call first):
+  /home/cjia/esp/esp-idf-v4.4.1/tools/cmake/project.cmake:12 (include)
+  CMakeLists.txt:6 (include)
+
+
+-- Building ESP-IDF components for target esp32
+-- Checking Python dependencies...
+The following Python requirements are not satisfied:
+click>=7.0
+pyserial>=3.3
+future>=0.15.2
+pyparsing>=2.0.3,<2.4.0
+idf-component-manager~=1.0
+gdbgui==0.13.2.0
+pygdbmi<=0.9.0.2
+python-socketio<5
+jinja2<3.1  # See https://github.com/espressif/esp-idf/issues/8760
+itsdangerous<2.1
+kconfiglib==13.7.1
+reedsolo>=1.5.3,<=1.5.4
+bitstring>=3.1.6
+ecdsa>=0.16.0
+construct==2.10.54
+Please follow the instructions found in the "Set up the tools" section of ESP-IDF Getting Started Guide
+Diagnostic information:
+    IDF_PYTHON_ENV_PATH: (not set)
+    Python interpreter used: /usr/bin/python
+    Warning: python interpreter not running from IDF_PYTHON_ENV_PATH
+    PATH: /home/cjia/qt/meta_ui/ffmpeg/ffmpeg_build/lib:/home/cjia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/cjia/esp/tools:/home/cjia/Qt5.9.0/5.9/gcc_64/bin:/home/cjia/Qt5.9.0/Tools/QtCreator/bin:/home/cjia/workspace/gcc-arm-none-eabi-10.3-2021.10/bin:/home/cjia/qt/meta_ui/ffmpeg/ffmpeg_build/lib:/home/cjia/clion-2022.1.2/bin:/home/cjia/BL702-DAPLink/toolchain_gcc_sifive_linux/bin
+CMake Error at /home/cjia/esp/esp-idf-v4.4.1/tools/cmake/build.cmake:286 (message):
+  Some Python dependencies must be installed.  Check above message for
+  details.
+Call Stack (most recent call first):
+  /home/cjia/esp/esp-idf-v4.4.1/tools/cmake/build.cmake:415 (__build_check_python)
+  /home/cjia/esp/esp-idf-v4.4.1/tools/cmake/project.cmake:378 (idf_build_process)
+  CMakeLists.txt:7 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/cjia/esp/hello_world/cmake-build-debug/CMakeFiles/CMakeOutput.log".

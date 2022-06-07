@@ -12,6 +12,7 @@
 #include "wifi_comm.h"
 #include "web_serve.h"
 #include "EPD.h"
+//#include "Adafruit_MPU6050.h"
 
 uint8_t gImage[2756]={0};
 
@@ -26,20 +27,5 @@ void app_main(void)
     html_int();
     mount_sdcard();
     EPD_init();
-
-
-    // char *filepath = "/www/sa.txt";
-    // FILE *fd = NULL;
-    // fd = fopen(filepath, "r");
-    // if(!fd)
-    // {
-    //     ESP_LOGE(TAG, "/www/sa.txt未打开");
-    // }
-    // char xxx[3000]={0};
-    // fgets(xxx,3000,fd);
-    // printf("%s ",xxx);
-
-
-
 
 }

@@ -1,4 +1,4 @@
-# Install script for directory: /home/cjia/esp/esp-idf/components/mbedtls/mbedtls
+# Install script for directory: /home/cjia/esp/esp-idf-v4.4.1/components/mbedtls/mbedtls
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,14 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/home/cjia/.espressif/tools/riscv32-esp-elf/esp-2021r2-8.4.0/riscv32-esp-elf/bin/riscv32-esp-elf-objdump")
+  set(CMAKE_OBJDUMP "/home/cjia/.espressif/tools/riscv32-esp-elf/esp-2021r2-patch3-8.4.0/riscv32-esp-elf/bin/riscv32-esp-elf-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/cjia/esp/hello_world/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
   include("/home/cjia/esp/hello_world/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
+  include("/home/cjia/esp/hello_world/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
+  include("/home/cjia/esp/hello_world/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
 
 endif()
 

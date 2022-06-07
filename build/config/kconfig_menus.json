@@ -3,1576 +3,6 @@
         "children": [],
         "depends_on": null,
         "help": null,
-        "id": "SOC_CPU_CORES_NUM",
-        "name": "SOC_CPU_CORES_NUM",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ADC_SUPPORTED",
-        "name": "SOC_ADC_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_DEDICATED_GPIO_SUPPORTED",
-        "name": "SOC_DEDICATED_GPIO_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_GDMA_SUPPORTED",
-        "name": "SOC_GDMA_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_TWAI_SUPPORTED",
-        "name": "SOC_TWAI_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_BT_SUPPORTED",
-        "name": "SOC_BT_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_DIG_SIGN_SUPPORTED",
-        "name": "SOC_DIG_SIGN_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_HMAC_SUPPORTED",
-        "name": "SOC_HMAC_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ASYNC_MEMCPY_SUPPORTED",
-        "name": "SOC_ASYNC_MEMCPY_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_USB_SERIAL_JTAG_SUPPORTED",
-        "name": "SOC_USB_SERIAL_JTAG_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_TEMP_SENSOR_SUPPORTED",
-        "name": "SOC_TEMP_SENSOR_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_FLASH_ENCRYPTION_XTS_AES",
-        "name": "SOC_FLASH_ENCRYPTION_XTS_AES",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_XT_WDT_SUPPORTED",
-        "name": "SOC_XT_WDT_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_WIFI_SUPPORTED",
-        "name": "SOC_WIFI_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SUPPORTS_SECURE_DL_MODE",
-        "name": "SOC_SUPPORTS_SECURE_DL_MODE",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_EFUSE_SECURE_BOOT_KEY_DIGESTS",
-        "name": "SOC_EFUSE_SECURE_BOOT_KEY_DIGESTS",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_EFUSE_REVOKE_BOOT_KEY_DIGESTS",
-        "name": "SOC_EFUSE_REVOKE_BOOT_KEY_DIGESTS",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ICACHE_ACCESS_RODATA_SUPPORTED",
-        "name": "SOC_ICACHE_ACCESS_RODATA_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_RTC_FAST_MEM_SUPPORTED",
-        "name": "SOC_RTC_FAST_MEM_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_RTC_SLOW_MEM_SUPPORTED",
-        "name": "SOC_RTC_SLOW_MEM_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SUPPORT_SECURE_BOOT_REVOKE_KEY",
-        "name": "SOC_SUPPORT_SECURE_BOOT_REVOKE_KEY",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_I2S_SUPPORTED",
-        "name": "SOC_I2S_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_RMT_SUPPORTED",
-        "name": "SOC_RMT_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SIGMADELTA_SUPPORTED",
-        "name": "SOC_SIGMADELTA_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_AES_SUPPORT_DMA",
-        "name": "SOC_AES_SUPPORT_DMA",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_AES_GDMA",
-        "name": "SOC_AES_GDMA",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_AES_SUPPORT_AES_128",
-        "name": "SOC_AES_SUPPORT_AES_128",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_AES_SUPPORT_AES_256",
-        "name": "SOC_AES_SUPPORT_AES_256",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ADC_DIG_CTRL_SUPPORTED",
-        "name": "SOC_ADC_DIG_CTRL_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ADC_ARBITER_SUPPORTED",
-        "name": "SOC_ADC_ARBITER_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ADC_FILTER_SUPPORTED",
-        "name": "SOC_ADC_FILTER_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ADC_MONITOR_SUPPORTED",
-        "name": "SOC_ADC_MONITOR_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ADC_PERIPH_NUM",
-        "name": "SOC_ADC_PERIPH_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ADC_MAX_CHANNEL_NUM",
-        "name": "SOC_ADC_MAX_CHANNEL_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ADC_DIGI_CONTROLLER_NUM",
-        "name": "SOC_ADC_DIGI_CONTROLLER_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ADC_PATT_LEN_MAX",
-        "name": "SOC_ADC_PATT_LEN_MAX",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ADC_DIGI_MAX_BITWIDTH",
-        "name": "SOC_ADC_DIGI_MAX_BITWIDTH",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ADC_DIGI_FILTER_NUM",
-        "name": "SOC_ADC_DIGI_FILTER_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ADC_DIGI_MONITOR_NUM",
-        "name": "SOC_ADC_DIGI_MONITOR_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ADC_SAMPLE_FREQ_THRES_HIGH",
-        "name": "SOC_ADC_SAMPLE_FREQ_THRES_HIGH",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ADC_SAMPLE_FREQ_THRES_LOW",
-        "name": "SOC_ADC_SAMPLE_FREQ_THRES_LOW",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ADC_MAX_BITWIDTH",
-        "name": "SOC_ADC_MAX_BITWIDTH",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_ADC_CALIBRATION_V1_SUPPORTED",
-        "name": "SOC_ADC_CALIBRATION_V1_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_APB_BACKUP_DMA",
-        "name": "SOC_APB_BACKUP_DMA",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_BROWNOUT_RESET_SUPPORTED",
-        "name": "SOC_BROWNOUT_RESET_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_CPU_BREAKPOINTS_NUM",
-        "name": "SOC_CPU_BREAKPOINTS_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_CPU_WATCHPOINTS_NUM",
-        "name": "SOC_CPU_WATCHPOINTS_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_CPU_HAS_FLEXIBLE_INTC",
-        "name": "SOC_CPU_HAS_FLEXIBLE_INTC",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_CPU_WATCHPOINT_SIZE",
-        "name": "SOC_CPU_WATCHPOINT_SIZE",
-        "range": null,
-        "title": null,
-        "type": "hex"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_DS_SIGNATURE_MAX_BIT_LEN",
-        "name": "SOC_DS_SIGNATURE_MAX_BIT_LEN",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_DS_KEY_PARAM_MD_IV_LENGTH",
-        "name": "SOC_DS_KEY_PARAM_MD_IV_LENGTH",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_DS_KEY_CHECK_MAX_WAIT_US",
-        "name": "SOC_DS_KEY_CHECK_MAX_WAIT_US",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_GDMA_GROUPS",
-        "name": "SOC_GDMA_GROUPS",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_GDMA_PAIRS_PER_GROUP",
-        "name": "SOC_GDMA_PAIRS_PER_GROUP",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_GDMA_TX_RX_SHARE_INTERRUPT",
-        "name": "SOC_GDMA_TX_RX_SHARE_INTERRUPT",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_GPIO_PORT",
-        "name": "SOC_GPIO_PORT",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_GPIO_PIN_COUNT",
-        "name": "SOC_GPIO_PIN_COUNT",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_GPIO_SUPPORTS_RTC_INDEPENDENT",
-        "name": "SOC_GPIO_SUPPORTS_RTC_INDEPENDENT",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_GPIO_SUPPORT_FORCE_HOLD",
-        "name": "SOC_GPIO_SUPPORT_FORCE_HOLD",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_GPIO_SUPPORT_DEEPSLEEP_WAKEUP",
-        "name": "SOC_GPIO_SUPPORT_DEEPSLEEP_WAKEUP",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_GPIO_DEEP_SLEEP_WAKE_VALID_GPIO_MASK",
-        "name": "SOC_GPIO_DEEP_SLEEP_WAKE_VALID_GPIO_MASK",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_GPIO_SUPPORT_SLP_SWITCH",
-        "name": "SOC_GPIO_SUPPORT_SLP_SWITCH",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_DEDIC_GPIO_OUT_CHANNELS_NUM",
-        "name": "SOC_DEDIC_GPIO_OUT_CHANNELS_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_DEDIC_GPIO_IN_CHANNELS_NUM",
-        "name": "SOC_DEDIC_GPIO_IN_CHANNELS_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_DEDIC_PERIPH_ALWAYS_ENABLE",
-        "name": "SOC_DEDIC_PERIPH_ALWAYS_ENABLE",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_I2C_NUM",
-        "name": "SOC_I2C_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_I2C_FIFO_LEN",
-        "name": "SOC_I2C_FIFO_LEN",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_I2C_SUPPORT_HW_FSM_RST",
-        "name": "SOC_I2C_SUPPORT_HW_FSM_RST",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_I2C_SUPPORT_HW_CLR_BUS",
-        "name": "SOC_I2C_SUPPORT_HW_CLR_BUS",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_I2C_SUPPORT_XTAL",
-        "name": "SOC_I2C_SUPPORT_XTAL",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_I2C_SUPPORT_RTC",
-        "name": "SOC_I2C_SUPPORT_RTC",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_I2S_NUM",
-        "name": "SOC_I2S_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_I2S_SUPPORTS_PCM",
-        "name": "SOC_I2S_SUPPORTS_PCM",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_I2S_SUPPORTS_PDM_TX",
-        "name": "SOC_I2S_SUPPORTS_PDM_TX",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_I2S_SUPPORTS_PDM_CODEC",
-        "name": "SOC_I2S_SUPPORTS_PDM_CODEC",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_I2S_SUPPORTS_TDM",
-        "name": "SOC_I2S_SUPPORTS_TDM",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_LEDC_SUPPORT_XTAL_CLOCK",
-        "name": "SOC_LEDC_SUPPORT_XTAL_CLOCK",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_LEDC_CHANNEL_NUM",
-        "name": "SOC_LEDC_CHANNEL_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_LEDC_TIMER_BIT_WIDE_NUM",
-        "name": "SOC_LEDC_TIMER_BIT_WIDE_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_MPU_CONFIGURABLE_REGIONS_SUPPORTED",
-        "name": "SOC_MPU_CONFIGURABLE_REGIONS_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_MPU_MIN_REGION_SIZE",
-        "name": "SOC_MPU_MIN_REGION_SIZE",
-        "range": null,
-        "title": null,
-        "type": "hex"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_MPU_REGIONS_MAX_NUM",
-        "name": "SOC_MPU_REGIONS_MAX_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_MPU_REGION_RO_SUPPORTED",
-        "name": "SOC_MPU_REGION_RO_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_MPU_REGION_WO_SUPPORTED",
-        "name": "SOC_MPU_REGION_WO_SUPPORTED",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_RMT_GROUPS",
-        "name": "SOC_RMT_GROUPS",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_RMT_TX_CANDIDATES_PER_GROUP",
-        "name": "SOC_RMT_TX_CANDIDATES_PER_GROUP",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_RMT_RX_CANDIDATES_PER_GROUP",
-        "name": "SOC_RMT_RX_CANDIDATES_PER_GROUP",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_RMT_CHANNELS_PER_GROUP",
-        "name": "SOC_RMT_CHANNELS_PER_GROUP",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_RMT_MEM_WORDS_PER_CHANNEL",
-        "name": "SOC_RMT_MEM_WORDS_PER_CHANNEL",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_RMT_SUPPORT_RX_PINGPONG",
-        "name": "SOC_RMT_SUPPORT_RX_PINGPONG",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_RMT_SUPPORT_RX_DEMODULATION",
-        "name": "SOC_RMT_SUPPORT_RX_DEMODULATION",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_RMT_SUPPORT_TX_LOOP_COUNT",
-        "name": "SOC_RMT_SUPPORT_TX_LOOP_COUNT",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_RMT_SUPPORT_TX_SYNCHRO",
-        "name": "SOC_RMT_SUPPORT_TX_SYNCHRO",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_RMT_SUPPORT_XTAL",
-        "name": "SOC_RMT_SUPPORT_XTAL",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_RTC_CNTL_CPU_PD_DMA_BUS_WIDTH",
-        "name": "SOC_RTC_CNTL_CPU_PD_DMA_BUS_WIDTH",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_RTC_CNTL_CPU_PD_REG_FILE_NUM",
-        "name": "SOC_RTC_CNTL_CPU_PD_REG_FILE_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_RTCIO_PIN_COUNT",
-        "name": "SOC_RTCIO_PIN_COUNT",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_RSA_MAX_BIT_LEN",
-        "name": "SOC_RSA_MAX_BIT_LEN",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SHA_DMA_MAX_BUFFER_SIZE",
-        "name": "SOC_SHA_DMA_MAX_BUFFER_SIZE",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SHA_SUPPORT_DMA",
-        "name": "SOC_SHA_SUPPORT_DMA",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SHA_SUPPORT_RESUME",
-        "name": "SOC_SHA_SUPPORT_RESUME",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SHA_GDMA",
-        "name": "SOC_SHA_GDMA",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SHA_SUPPORT_SHA1",
-        "name": "SOC_SHA_SUPPORT_SHA1",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SHA_SUPPORT_SHA224",
-        "name": "SOC_SHA_SUPPORT_SHA224",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SHA_SUPPORT_SHA256",
-        "name": "SOC_SHA_SUPPORT_SHA256",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SIGMADELTA_NUM",
-        "name": "SOC_SIGMADELTA_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SIGMADELTA_CHANNEL_NUM",
-        "name": "SOC_SIGMADELTA_CHANNEL_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SPI_PERIPH_NUM",
-        "name": "SOC_SPI_PERIPH_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SPI_MAXIMUM_BUFFER_SIZE",
-        "name": "SOC_SPI_MAXIMUM_BUFFER_SIZE",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SPI_SUPPORT_DDRCLK",
-        "name": "SOC_SPI_SUPPORT_DDRCLK",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SPI_SLAVE_SUPPORT_SEG_TRANS",
-        "name": "SOC_SPI_SLAVE_SUPPORT_SEG_TRANS",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SPI_SUPPORT_CD_SIG",
-        "name": "SOC_SPI_SUPPORT_CD_SIG",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SPI_SUPPORT_CONTINUOUS_TRANS",
-        "name": "SOC_SPI_SUPPORT_CONTINUOUS_TRANS",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SPI_SUPPORT_SLAVE_HD_VER2",
-        "name": "SOC_SPI_SUPPORT_SLAVE_HD_VER2",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SPI_PERIPH_SUPPORT_CONTROL_DUMMY_OUT",
-        "name": "SOC_SPI_PERIPH_SUPPORT_CONTROL_DUMMY_OUT",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_MEMSPI_IS_INDEPENDENT",
-        "name": "SOC_MEMSPI_IS_INDEPENDENT",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SPI_MAX_PRE_DIVIDER",
-        "name": "SOC_SPI_MAX_PRE_DIVIDER",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SPI_MEM_SUPPORT_AUTO_WAIT_IDLE",
-        "name": "SOC_SPI_MEM_SUPPORT_AUTO_WAIT_IDLE",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SPI_MEM_SUPPORT_AUTO_SUSPEND",
-        "name": "SOC_SPI_MEM_SUPPORT_AUTO_SUSPEND",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SPI_MEM_SUPPORT_AUTO_RESUME",
-        "name": "SOC_SPI_MEM_SUPPORT_AUTO_RESUME",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SPI_MEM_SUPPORT_IDLE_INTR",
-        "name": "SOC_SPI_MEM_SUPPORT_IDLE_INTR",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SPI_MEM_SUPPORT_SW_SUSPEND",
-        "name": "SOC_SPI_MEM_SUPPORT_SW_SUSPEND",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SPI_MEM_SUPPORT_CHECK_SUS",
-        "name": "SOC_SPI_MEM_SUPPORT_CHECK_SUS",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SYSTIMER_COUNTER_NUM",
-        "name": "SOC_SYSTIMER_COUNTER_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SYSTIMER_ALARM_NUM",
-        "name": "SOC_SYSTIMER_ALARM_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SYSTIMER_BIT_WIDTH_LO",
-        "name": "SOC_SYSTIMER_BIT_WIDTH_LO",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SYSTIMER_BIT_WIDTH_HI",
-        "name": "SOC_SYSTIMER_BIT_WIDTH_HI",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SYSTIMER_FIXED_TICKS_US",
-        "name": "SOC_SYSTIMER_FIXED_TICKS_US",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SYSTIMER_INT_LEVEL",
-        "name": "SOC_SYSTIMER_INT_LEVEL",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_SYSTIMER_ALARM_MISS_COMPENSATE",
-        "name": "SOC_SYSTIMER_ALARM_MISS_COMPENSATE",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_TIMER_GROUPS",
-        "name": "SOC_TIMER_GROUPS",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_TIMER_GROUP_TIMERS_PER_GROUP",
-        "name": "SOC_TIMER_GROUP_TIMERS_PER_GROUP",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_TIMER_GROUP_COUNTER_BIT_WIDTH",
-        "name": "SOC_TIMER_GROUP_COUNTER_BIT_WIDTH",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_TIMER_GROUP_SUPPORT_XTAL",
-        "name": "SOC_TIMER_GROUP_SUPPORT_XTAL",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_TIMER_GROUP_TOTAL_TIMERS",
-        "name": "SOC_TIMER_GROUP_TOTAL_TIMERS",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_TOUCH_SENSOR_NUM",
-        "name": "SOC_TOUCH_SENSOR_NUM",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_TWAI_BRP_MIN",
-        "name": "SOC_TWAI_BRP_MIN",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_TWAI_BRP_MAX",
-        "name": "SOC_TWAI_BRP_MAX",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_TWAI_SUPPORTS_RX_STATUS",
-        "name": "SOC_TWAI_SUPPORTS_RX_STATUS",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_FLASH_ENCRYPTED_XTS_AES_BLOCK_MAX",
-        "name": "SOC_FLASH_ENCRYPTED_XTS_AES_BLOCK_MAX",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_UART_NUM",
-        "name": "SOC_UART_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_UART_FIFO_LEN",
-        "name": "SOC_UART_FIFO_LEN",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_UART_BITRATE_MAX",
-        "name": "SOC_UART_BITRATE_MAX",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_UART_SUPPORT_RTC_CLK",
-        "name": "SOC_UART_SUPPORT_RTC_CLK",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_UART_SUPPORT_XTAL_CLK",
-        "name": "SOC_UART_SUPPORT_XTAL_CLK",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_UART_REQUIRE_CORE_RESET",
-        "name": "SOC_UART_REQUIRE_CORE_RESET",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_UART_SUPPORT_FSM_TX_WAIT_SEND",
-        "name": "SOC_UART_SUPPORT_FSM_TX_WAIT_SEND",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_WIFI_HW_TSF",
-        "name": "SOC_WIFI_HW_TSF",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_COEX_HW_PTI",
-        "name": "SOC_COEX_HW_PTI",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_PHY_DIG_REGS_MEM_SIZE",
-        "name": "SOC_PHY_DIG_REGS_MEM_SIZE",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_MAC_BB_PD_MEM_SIZE",
-        "name": "SOC_MAC_BB_PD_MEM_SIZE",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_WIFI_LIGHT_SLEEP_CLK_WIDTH",
-        "name": "SOC_WIFI_LIGHT_SLEEP_CLK_WIDTH",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_PM_SUPPORT_WIFI_WAKEUP",
-        "name": "SOC_PM_SUPPORT_WIFI_WAKEUP",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_PM_SUPPORT_BT_WAKEUP",
-        "name": "SOC_PM_SUPPORT_BT_WAKEUP",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_PM_SUPPORT_CPU_PD",
-        "name": "SOC_PM_SUPPORT_CPU_PD",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_PM_SUPPORT_WIFI_PD",
-        "name": "SOC_PM_SUPPORT_WIFI_PD",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "SOC_PM_SUPPORT_BT_PD",
-        "name": "SOC_PM_SUPPORT_BT_PD",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
         "id": "IDF_CMAKE",
         "name": "IDF_CMAKE",
         "range": null,
@@ -1608,16 +38,6 @@
         "range": null,
         "title": null,
         "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "IDF_TARGET_ARCH",
-        "name": "IDF_TARGET_ARCH",
-        "range": null,
-        "title": null,
-        "type": "string"
     },
     {
         "children": [],
@@ -1680,46 +100,6 @@
         "type": "bool"
     },
     {
-        "children": [
-            {
-                "children": [],
-                "depends_on": "<choice IDF_TARGET_ESP32H2_BETA_VERSION>",
-                "help": null,
-                "id": "IDF_TARGET_ESP32H2_BETA_VERSION_1",
-                "name": "IDF_TARGET_ESP32H2_BETA_VERSION_1",
-                "range": null,
-                "title": "ESP32-H2 beta1",
-                "type": "bool"
-            },
-            {
-                "children": [],
-                "depends_on": "<choice IDF_TARGET_ESP32H2_BETA_VERSION>",
-                "help": null,
-                "id": "IDF_TARGET_ESP32H2_BETA_VERSION_2",
-                "name": "IDF_TARGET_ESP32H2_BETA_VERSION_2",
-                "range": null,
-                "title": "ESP32-H2 beta2",
-                "type": "bool"
-            }
-        ],
-        "depends_on": "IDF_TARGET_ESP32H2",
-        "help": "Currently ESP32-H2 has several beta versions for internal use only.\nSelect the one that matches your chip model.",
-        "id": "esp32-h2-beta-version",
-        "name": "IDF_TARGET_ESP32H2_BETA_VERSION",
-        "title": "ESP32-H2 beta version",
-        "type": "choice"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "IDF_TARGET_ESP32C2",
-        "name": "IDF_TARGET_ESP32C2",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
         "children": [],
         "depends_on": null,
         "help": null,
@@ -1738,6 +118,54 @@
         "range": null,
         "title": null,
         "type": "hex"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "The prefix/path that is used to call the toolchain. The default setting assumes\na crosstool-ng gcc setup that is in your PATH.",
+                "id": "SDK_TOOLPREFIX",
+                "name": "SDK_TOOLPREFIX",
+                "range": null,
+                "title": "Compiler toolchain path/prefix",
+                "type": "string"
+            },
+            {
+                "children": [],
+                "depends_on": "!IDF_CMAKE",
+                "help": "The executable name/path that is used to run python.\n\n(Note: This option is used with the legacy GNU Make build system only.)",
+                "id": "SDK_PYTHON",
+                "name": "SDK_PYTHON",
+                "range": null,
+                "title": "Python interpreter",
+                "type": "string"
+            },
+            {
+                "children": [],
+                "depends_on": "!IDF_CMAKE",
+                "help": "Adds --warn-undefined-variables to MAKEFLAGS. This causes make to\nprint a warning any time an undefined variable is referenced.\n\nThis option helps find places where a variable reference is misspelled\nor otherwise missing, but it can be unwanted if you have Makefiles which\ndepend on undefined variables expanding to an empty string.\n\n(Note: this option is used with the legacy GNU Make build system only.)",
+                "id": "SDK_MAKE_WARN_UNDEFINED_VARIABLES",
+                "name": "SDK_MAKE_WARN_UNDEFINED_VARIABLES",
+                "range": null,
+                "title": "'make' warns on undefined variables",
+                "type": "bool"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "Enable this option in case you have a custom toolchain which supports time_t wide 64-bits.\nThis option checks time_t is 64-bits and disables ROM time functions\nto use the time functions from the toolchain instead.\nThis option allows resolving the Y2K38 problem.\nSee \"Setup Linux Toolchain from Scratch\" to build\na custom toolchain which supports 64-bits time_t.\n\nNote: ESP-IDF does not currently come with any pre-compiled toolchain\nthat supports 64-bit wide time_t.\nThis will change in a future major release,\nbut currently 64-bit time_t requires a custom built toolchain.",
+                "id": "SDK_TOOLCHAIN_SUPPORTS_TIME_WIDE_64_BITS",
+                "name": "SDK_TOOLCHAIN_SUPPORTS_TIME_WIDE_64_BITS",
+                "range": null,
+                "title": "Toolchain supports time_t wide 64-bits",
+                "type": "bool"
+            }
+        ],
+        "depends_on": null,
+        "id": "sdk-tool-configuration",
+        "title": "SDK tool configuration",
+        "type": "menu"
     },
     {
         "children": [
@@ -1799,16 +227,6 @@
                 "name": "APP_BUILD_USE_FLASH_SECTIONS",
                 "range": null,
                 "title": null,
-                "type": "bool"
-            },
-            {
-                "children": [],
-                "depends_on": null,
-                "help": "If enabled, all date, time, and path information would be eliminated. A .gdbinit file would be create\nautomatically. (or will be append if you have one already)",
-                "id": "APP_REPRODUCIBLE_BUILD",
-                "name": "APP_REPRODUCIBLE_BUILD",
-                "range": null,
-                "title": "Enable reproducible build",
                 "type": "bool"
             }
         ],
@@ -2616,7 +1034,7 @@
                         "children": [
                             {
                                 "children": [],
-                                "depends_on": "!IDF_TARGET_ESP32C2 && <choice SECURE_FLASH_ENCRYPTION_KEYSIZE>",
+                                "depends_on": "<choice SECURE_FLASH_ENCRYPTION_KEYSIZE>",
                                 "help": null,
                                 "id": "SECURE_FLASH_ENCRYPTION_AES128",
                                 "name": "SECURE_FLASH_ENCRYPTION_AES128",
@@ -2626,7 +1044,7 @@
                             },
                             {
                                 "children": [],
-                                "depends_on": "!IDF_TARGET_ESP32C2 && <choice SECURE_FLASH_ENCRYPTION_KEYSIZE>",
+                                "depends_on": "<choice SECURE_FLASH_ENCRYPTION_KEYSIZE>",
                                 "help": null,
                                 "id": "SECURE_FLASH_ENCRYPTION_AES256",
                                 "name": "SECURE_FLASH_ENCRYPTION_AES256",
@@ -2635,7 +1053,7 @@
                                 "type": "bool"
                             }
                         ],
-                        "depends_on": "(IDF_TARGET_ESP32S2 || IDF_TARGET_ESP32S3 || IDF_TARGET_ESP32C2) && SECURE_FLASH_ENC_ENABLED",
+                        "depends_on": "(IDF_TARGET_ESP32S2 || IDF_TARGET_ESP32S3) && SECURE_FLASH_ENC_ENABLED",
                         "help": "Size of generated AES-XTS key.\n\nAES-128 uses a 256-bit key (32 bytes) which occupies one Efuse key block.\nAES-256 uses a 512-bit key (64 bytes) which occupies two Efuse key blocks.\n\nThis setting is ignored if either type of key is already burned to Efuse before the first boot.\nIn this case, the pre-burned key is used and no new key is generated.",
                         "id": "security-features-enable-flash-encryption-on-boot-read-docs-first--size-of-generated-aes-xts-key",
                         "name": "SECURE_FLASH_ENCRYPTION_KEYSIZE",
@@ -2790,16 +1208,6 @@
                 "type": "bool"
             },
             {
-                "children": [],
-                "depends_on": null,
-                "help": null,
-                "id": "SECURE_ROM_DL_MODE_ENABLED",
-                "name": "SECURE_ROM_DL_MODE_ENABLED",
-                "range": null,
-                "title": null,
-                "type": "bool"
-            },
-            {
                 "children": [
                     {
                         "children": [],
@@ -2844,86 +1252,6 @@
         "id": "security-features",
         "title": "Security features",
         "type": "menu"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "ESP_ROM_HAS_CRC_LE",
-        "name": "ESP_ROM_HAS_CRC_LE",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "ESP_ROM_HAS_CRC_BE",
-        "name": "ESP_ROM_HAS_CRC_BE",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "ESP_ROM_HAS_JPEG_DECODE",
-        "name": "ESP_ROM_HAS_JPEG_DECODE",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "ESP_ROM_UART_CLK_IS_XTAL",
-        "name": "ESP_ROM_UART_CLK_IS_XTAL",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "ESP_ROM_USB_SERIAL_DEVICE_NUM",
-        "name": "ESP_ROM_USB_SERIAL_DEVICE_NUM",
-        "range": null,
-        "title": null,
-        "type": "int"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "ESP_ROM_HAS_RETARGETABLE_LOCKING",
-        "name": "ESP_ROM_HAS_RETARGETABLE_LOCKING",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "ESP_ROM_HAS_ERASE_0_REGION_BUG",
-        "name": "ESP_ROM_HAS_ERASE_0_REGION_BUG",
-        "range": null,
-        "title": null,
-        "type": "bool"
-    },
-    {
-        "children": [],
-        "depends_on": null,
-        "help": null,
-        "id": "ESP_ROM_GET_CLK_FREQ",
-        "name": "ESP_ROM_GET_CLK_FREQ",
-        "range": null,
-        "title": null,
-        "type": "bool"
     },
     {
         "children": [
@@ -2985,6 +1313,106 @@
     },
     {
         "children": [
+            {
+                "children": [],
+                "depends_on": "!IDF_CMAKE",
+                "help": "The serial port that's connected to the ESP chip. This can be overridden by setting the ESPPORT\nenvironment variable.\n\nThis value is ignored when using the CMake-based build system or idf.py.",
+                "id": "ESPTOOLPY_PORT",
+                "name": "ESPTOOLPY_PORT",
+                "range": null,
+                "title": "Default serial port",
+                "type": "string"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depends_on": "<choice ESPTOOLPY_BAUD>",
+                        "help": null,
+                        "id": "ESPTOOLPY_BAUD_115200B",
+                        "name": "ESPTOOLPY_BAUD_115200B",
+                        "range": null,
+                        "title": "115200 baud",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "<choice ESPTOOLPY_BAUD>",
+                        "help": null,
+                        "id": "ESPTOOLPY_BAUD_230400B",
+                        "name": "ESPTOOLPY_BAUD_230400B",
+                        "range": null,
+                        "title": "230400 baud",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "<choice ESPTOOLPY_BAUD>",
+                        "help": null,
+                        "id": "ESPTOOLPY_BAUD_921600B",
+                        "name": "ESPTOOLPY_BAUD_921600B",
+                        "range": null,
+                        "title": "921600 baud",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "<choice ESPTOOLPY_BAUD>",
+                        "help": null,
+                        "id": "ESPTOOLPY_BAUD_2MB",
+                        "name": "ESPTOOLPY_BAUD_2MB",
+                        "range": null,
+                        "title": "2Mbaud",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "<choice ESPTOOLPY_BAUD>",
+                        "help": null,
+                        "id": "ESPTOOLPY_BAUD_OTHER",
+                        "name": "ESPTOOLPY_BAUD_OTHER",
+                        "range": null,
+                        "title": "Other baud rate",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": "!IDF_CMAKE",
+                "help": "Default baud rate to use while communicating with the ESP chip. Can be overridden by\nsetting the ESPBAUD variable.\n\nThis value is ignored when using the CMake-based build system or idf.py.",
+                "id": "serial-flasher-config-default-baud-rate",
+                "name": "ESPTOOLPY_BAUD",
+                "title": "Default baud rate",
+                "type": "choice"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": null,
+                "id": "ESPTOOLPY_BAUD_OTHER_VAL",
+                "name": "ESPTOOLPY_BAUD_OTHER_VAL",
+                "range": null,
+                "title": "Other baud rate value",
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": "!IDF_CMAKE",
+                "help": null,
+                "id": "ESPTOOLPY_BAUD",
+                "name": "ESPTOOLPY_BAUD",
+                "range": null,
+                "title": null,
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": "!IDF_CMAKE",
+                "help": "The flasher tool can send data compressed using zlib, letting the ROM on the ESP chip\ndecompress it on the fly before flashing it. For most payloads, this should result in a\nspeed increase.",
+                "id": "ESPTOOLPY_COMPRESSED",
+                "name": "ESPTOOLPY_COMPRESSED",
+                "range": null,
+                "title": "Use compressed upload",
+                "type": "bool"
+            },
             {
                 "children": [],
                 "depends_on": null,
@@ -3582,6 +2010,763 @@
     {
         "children": [
             {
+                "children": [],
+                "depends_on": null,
+                "help": null,
+                "id": "ENABLE_ARDUINO_DEPENDS",
+                "name": "ENABLE_ARDUINO_DEPENDS",
+                "range": null,
+                "title": null,
+                "type": "bool"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "Enabling this option will implement app_main and start Arduino.\nAll you need to implement in your main.cpp is setup() and loop()\nand include Arduino.h\nIf disabled, you can call initArduino() to run any preparations\nrequired by the framework",
+                "id": "AUTOSTART_ARDUINO",
+                "name": "AUTOSTART_ARDUINO",
+                "range": null,
+                "title": "Autostart Arduino setup and loop on boot",
+                "type": "bool"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depends_on": "<choice ARDUINO_RUNNING_CORE>",
+                        "help": null,
+                        "id": "ARDUINO_RUN_CORE0",
+                        "name": "ARDUINO_RUN_CORE0",
+                        "range": null,
+                        "title": "CORE 0",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "!FREERTOS_UNICORE && <choice ARDUINO_RUNNING_CORE>",
+                        "help": null,
+                        "id": "ARDUINO_RUN_CORE1",
+                        "name": "ARDUINO_RUN_CORE1",
+                        "range": null,
+                        "title": "CORE 1",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "!FREERTOS_UNICORE && <choice ARDUINO_RUNNING_CORE>",
+                        "help": null,
+                        "id": "ARDUINO_RUN_NO_AFFINITY",
+                        "name": "ARDUINO_RUN_NO_AFFINITY",
+                        "range": null,
+                        "title": "BOTH",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "help": "Select on which core Arduino's setup() and loop() functions run",
+                "id": "arduino-configuration-core-on-which-arduino-s-setup-and-loop-are-running",
+                "name": "ARDUINO_RUNNING_CORE",
+                "title": "Core on which Arduino's setup() and loop() are running",
+                "type": "choice"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": null,
+                "id": "ARDUINO_RUNNING_CORE",
+                "name": "ARDUINO_RUNNING_CORE",
+                "range": null,
+                "title": null,
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "Amount of stack available for the Arduino task.",
+                "id": "ARDUINO_LOOP_STACK_SIZE",
+                "name": "ARDUINO_LOOP_STACK_SIZE",
+                "range": null,
+                "title": "Loop thread stack size",
+                "type": "int"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depends_on": "<choice ARDUINO_EVENT_RUNNING_CORE>",
+                        "help": null,
+                        "id": "ARDUINO_EVENT_RUN_CORE0",
+                        "name": "ARDUINO_EVENT_RUN_CORE0",
+                        "range": null,
+                        "title": "CORE 0",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "!FREERTOS_UNICORE && <choice ARDUINO_EVENT_RUNNING_CORE>",
+                        "help": null,
+                        "id": "ARDUINO_EVENT_RUN_CORE1",
+                        "name": "ARDUINO_EVENT_RUN_CORE1",
+                        "range": null,
+                        "title": "CORE 1",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "!FREERTOS_UNICORE && <choice ARDUINO_EVENT_RUNNING_CORE>",
+                        "help": null,
+                        "id": "ARDUINO_EVENT_RUN_NO_AFFINITY",
+                        "name": "ARDUINO_EVENT_RUN_NO_AFFINITY",
+                        "range": null,
+                        "title": "BOTH",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "help": "Select on which core Arduino's WiFi.onEvent() run",
+                "id": "arduino-configuration-core-on-which-arduino-s-event-handler-is-running",
+                "name": "ARDUINO_EVENT_RUNNING_CORE",
+                "title": "Core on which Arduino's event handler is running",
+                "type": "choice"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": null,
+                "id": "ARDUINO_EVENT_RUNNING_CORE",
+                "name": "ARDUINO_EVENT_RUNNING_CORE",
+                "range": null,
+                "title": null,
+                "type": "int"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depends_on": "<choice ARDUINO_SERIAL_EVENT_TASK_RUNNING_CORE>",
+                        "help": null,
+                        "id": "ARDUINO_SERIAL_EVENT_RUN_CORE0",
+                        "name": "ARDUINO_SERIAL_EVENT_RUN_CORE0",
+                        "range": null,
+                        "title": "CORE 0",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "!FREERTOS_UNICORE && <choice ARDUINO_SERIAL_EVENT_TASK_RUNNING_CORE>",
+                        "help": null,
+                        "id": "ARDUINO_SERIAL_EVENT_RUN_CORE1",
+                        "name": "ARDUINO_SERIAL_EVENT_RUN_CORE1",
+                        "range": null,
+                        "title": "CORE 1",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "!FREERTOS_UNICORE && <choice ARDUINO_SERIAL_EVENT_TASK_RUNNING_CORE>",
+                        "help": null,
+                        "id": "ARDUINO_SERIAL_EVENT_RUN_NO_AFFINITY",
+                        "name": "ARDUINO_SERIAL_EVENT_RUN_NO_AFFINITY",
+                        "range": null,
+                        "title": "BOTH",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "help": "Select on which core Arduino's Serial Event task run",
+                "id": "arduino-configuration-core-on-which-arduino-s-serial-event-task-is-running",
+                "name": "ARDUINO_SERIAL_EVENT_TASK_RUNNING_CORE",
+                "title": "Core on which Arduino's Serial Event task is running",
+                "type": "choice"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": null,
+                "id": "ARDUINO_SERIAL_EVENT_TASK_RUNNING_CORE",
+                "name": "ARDUINO_SERIAL_EVENT_TASK_RUNNING_CORE",
+                "range": null,
+                "title": null,
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "Amount of stack available for the Serial Event task.",
+                "id": "ARDUINO_SERIAL_EVENT_TASK_STACK_SIZE",
+                "name": "ARDUINO_SERIAL_EVENT_TASK_STACK_SIZE",
+                "range": null,
+                "title": "Serial Event task stack size",
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "Select at what priority you want the Serial Event task to run.",
+                "id": "ARDUINO_SERIAL_EVENT_TASK_PRIORITY",
+                "name": "ARDUINO_SERIAL_EVENT_TASK_PRIORITY",
+                "range": null,
+                "title": "Priority of the Serial Event task",
+                "type": "int"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depends_on": "<choice ARDUINO_UDP_RUNNING_CORE>",
+                        "help": null,
+                        "id": "ARDUINO_UDP_RUN_CORE0",
+                        "name": "ARDUINO_UDP_RUN_CORE0",
+                        "range": null,
+                        "title": "CORE 0",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "!FREERTOS_UNICORE && <choice ARDUINO_UDP_RUNNING_CORE>",
+                        "help": null,
+                        "id": "ARDUINO_UDP_RUN_CORE1",
+                        "name": "ARDUINO_UDP_RUN_CORE1",
+                        "range": null,
+                        "title": "CORE 1",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "!FREERTOS_UNICORE && <choice ARDUINO_UDP_RUNNING_CORE>",
+                        "help": null,
+                        "id": "ARDUINO_UDP_RUN_NO_AFFINITY",
+                        "name": "ARDUINO_UDP_RUN_NO_AFFINITY",
+                        "range": null,
+                        "title": "BOTH",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "help": "Select on which core Arduino's UDP run",
+                "id": "arduino-configuration-core-on-which-arduino-s-udp-is-running",
+                "name": "ARDUINO_UDP_RUNNING_CORE",
+                "title": "Core on which Arduino's UDP is running",
+                "type": "choice"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": null,
+                "id": "ARDUINO_UDP_RUNNING_CORE",
+                "name": "ARDUINO_UDP_RUNNING_CORE",
+                "range": null,
+                "title": null,
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "Select at what priority you want the UDP task to run.",
+                "id": "ARDUINO_UDP_TASK_PRIORITY",
+                "name": "ARDUINO_UDP_TASK_PRIORITY",
+                "range": null,
+                "title": "Priority of the UDP task",
+                "type": "int"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "Enabling this option will Attach all interrupts with the IRAm flag.\nIt will also make some HAL function, like, digitalRead/Write and more\n                        be loaded into IRAM for access inside ISRs.\n                        Beware that this is a very dangerous setting. Enable it only if you\n                        are fully aware of the consequences.",
+                "id": "ARDUINO_ISR_IRAM",
+                "name": "ARDUINO_ISR_IRAM",
+                "range": null,
+                "title": "Run interrupts in IRAM",
+                "type": "bool"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "Enabling this option will run all hardware abstraction without locks.\nWhile communication with external hardware will be faster, you need to\nmake sure that there is no option to use the same bus from another thread\nor interrupt at the same time. Option is best used with Arduino enabled\nand code implemented only in setup/loop and Arduino callbacks",
+                "id": "DISABLE_HAL_LOCKS",
+                "name": "DISABLE_HAL_LOCKS",
+                "range": null,
+                "title": "Disable mutex locks for HAL",
+                "type": "bool"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": "<choice ARDUHAL_LOG_DEFAULT_LEVEL>",
+                                "help": null,
+                                "id": "ARDUHAL_LOG_DEFAULT_LEVEL_NONE",
+                                "name": "ARDUHAL_LOG_DEFAULT_LEVEL_NONE",
+                                "range": null,
+                                "title": "No output",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice ARDUHAL_LOG_DEFAULT_LEVEL>",
+                                "help": null,
+                                "id": "ARDUHAL_LOG_DEFAULT_LEVEL_ERROR",
+                                "name": "ARDUHAL_LOG_DEFAULT_LEVEL_ERROR",
+                                "range": null,
+                                "title": "Error",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice ARDUHAL_LOG_DEFAULT_LEVEL>",
+                                "help": null,
+                                "id": "ARDUHAL_LOG_DEFAULT_LEVEL_WARN",
+                                "name": "ARDUHAL_LOG_DEFAULT_LEVEL_WARN",
+                                "range": null,
+                                "title": "Warning",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice ARDUHAL_LOG_DEFAULT_LEVEL>",
+                                "help": null,
+                                "id": "ARDUHAL_LOG_DEFAULT_LEVEL_INFO",
+                                "name": "ARDUHAL_LOG_DEFAULT_LEVEL_INFO",
+                                "range": null,
+                                "title": "Info",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice ARDUHAL_LOG_DEFAULT_LEVEL>",
+                                "help": null,
+                                "id": "ARDUHAL_LOG_DEFAULT_LEVEL_DEBUG",
+                                "name": "ARDUHAL_LOG_DEFAULT_LEVEL_DEBUG",
+                                "range": null,
+                                "title": "Debug",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice ARDUHAL_LOG_DEFAULT_LEVEL>",
+                                "help": null,
+                                "id": "ARDUHAL_LOG_DEFAULT_LEVEL_VERBOSE",
+                                "name": "ARDUHAL_LOG_DEFAULT_LEVEL_VERBOSE",
+                                "range": null,
+                                "title": "Verbose",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": null,
+                        "help": "Specify how much output to see in logs by default.",
+                        "id": "arduino-configuration-debug-log-configuration-default-log-level",
+                        "name": "ARDUHAL_LOG_DEFAULT_LEVEL",
+                        "title": "Default log level",
+                        "type": "choice"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": null,
+                        "id": "ARDUHAL_LOG_DEFAULT_LEVEL",
+                        "name": "ARDUHAL_LOG_DEFAULT_LEVEL",
+                        "range": null,
+                        "title": null,
+                        "type": "int"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Enable ANSI terminal color codes in bootloader output.\nIn order to view these, your terminal program must support ANSI color codes.",
+                        "id": "ARDUHAL_LOG_COLORS",
+                        "name": "ARDUHAL_LOG_COLORS",
+                        "range": null,
+                        "title": "Use ANSI terminal colors in log output",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "This option will redefine the ESP_LOGx macros to Arduino's log_x macros.\nTo enable for your application, add the follwing after your includes:\n#ifdef ARDUINO_ARCH_ESP32\n#include \"esp32-hal-log.h\"\n#endif",
+                        "id": "ARDUHAL_ESP_LOG",
+                        "name": "ARDUHAL_ESP_LOG",
+                        "range": null,
+                        "title": "Forward ESP_LOGx to Arduino log output",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "id": "arduino-configuration-debug-log-configuration",
+                "title": "Debug Log Configuration",
+                "type": "menu"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depends_on": "<choice ARDUHAL_PARTITION_SCHEME>",
+                        "help": null,
+                        "id": "ARDUHAL_PARTITION_SCHEME_DEFAULT",
+                        "name": "ARDUHAL_PARTITION_SCHEME_DEFAULT",
+                        "range": null,
+                        "title": "Default",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "<choice ARDUHAL_PARTITION_SCHEME>",
+                        "help": null,
+                        "id": "ARDUHAL_PARTITION_SCHEME_MINIMAL",
+                        "name": "ARDUHAL_PARTITION_SCHEME_MINIMAL",
+                        "range": null,
+                        "title": "Minimal (for 2MB FLASH)",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "<choice ARDUHAL_PARTITION_SCHEME>",
+                        "help": null,
+                        "id": "ARDUHAL_PARTITION_SCHEME_NO_OTA",
+                        "name": "ARDUHAL_PARTITION_SCHEME_NO_OTA",
+                        "range": null,
+                        "title": "No OTA (for large apps)",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "<choice ARDUHAL_PARTITION_SCHEME>",
+                        "help": null,
+                        "id": "ARDUHAL_PARTITION_SCHEME_HUGE_APP",
+                        "name": "ARDUHAL_PARTITION_SCHEME_HUGE_APP",
+                        "range": null,
+                        "title": "Huge App (for very large apps)",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "<choice ARDUHAL_PARTITION_SCHEME>",
+                        "help": null,
+                        "id": "ARDUHAL_PARTITION_SCHEME_MIN_SPIFFS",
+                        "name": "ARDUHAL_PARTITION_SCHEME_MIN_SPIFFS",
+                        "range": null,
+                        "title": "Minimal SPIFFS (for large apps with OTA)",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "help": "Specify which partition scheme to be used.",
+                "id": "arduino-configuration-used-partition-scheme",
+                "name": "ARDUHAL_PARTITION_SCHEME",
+                "title": "Used partition scheme",
+                "type": "choice"
+            },
+            {
+                "children": [],
+                "depends_on": null,
+                "help": null,
+                "id": "ARDUHAL_PARTITION_SCHEME",
+                "name": "ARDUHAL_PARTITION_SCHEME",
+                "range": null,
+                "title": null,
+                "type": "string"
+            },
+            {
+                "children": [],
+                "depends_on": "AUTOSTART_ARDUINO",
+                "help": "If enabled, WiFi will connect to the last used SSID (if station was enabled),\nelse connection will be started only after calling WiFi.begin(ssid, password)",
+                "id": "AUTOCONNECT_WIFI",
+                "name": "AUTOCONNECT_WIFI",
+                "range": null,
+                "title": "Autoconnect WiFi on boot",
+                "type": "bool"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_ArduinoOTA",
+                        "name": "ARDUINO_SELECTIVE_ArduinoOTA",
+                        "range": null,
+                        "title": "Enable ArduinoOTA",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_AsyncUDP",
+                        "name": "ARDUINO_SELECTIVE_AsyncUDP",
+                        "range": null,
+                        "title": "Enable AsyncUDP",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_AzureIoT",
+                        "name": "ARDUINO_SELECTIVE_AzureIoT",
+                        "range": null,
+                        "title": "Enable AzureIoT",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_BLE",
+                        "name": "ARDUINO_SELECTIVE_BLE",
+                        "range": null,
+                        "title": "Enable BLE",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_BluetoothSerial",
+                        "name": "ARDUINO_SELECTIVE_BluetoothSerial",
+                        "range": null,
+                        "title": "Enable BluetoothSerial",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_DNSServer",
+                        "name": "ARDUINO_SELECTIVE_DNSServer",
+                        "range": null,
+                        "title": "Enable DNSServer",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_EEPROM",
+                        "name": "ARDUINO_SELECTIVE_EEPROM",
+                        "range": null,
+                        "title": "Enable EEPROM",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_ESP32",
+                        "name": "ARDUINO_SELECTIVE_ESP32",
+                        "range": null,
+                        "title": "Enable ESP32",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_ESPmDNS",
+                        "name": "ARDUINO_SELECTIVE_ESPmDNS",
+                        "range": null,
+                        "title": "Enable ESPmDNS",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_FFat",
+                        "name": "ARDUINO_SELECTIVE_FFat",
+                        "range": null,
+                        "title": "Enable FFat",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_FS",
+                        "name": "ARDUINO_SELECTIVE_FS",
+                        "range": null,
+                        "title": "Enable FS",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_HTTPClient",
+                        "name": "ARDUINO_SELECTIVE_HTTPClient",
+                        "range": null,
+                        "title": "Enable HTTPClient",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_LITTLEFS",
+                        "name": "ARDUINO_SELECTIVE_LITTLEFS",
+                        "range": null,
+                        "title": "Enable LITTLEFS",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_NetBIOS",
+                        "name": "ARDUINO_SELECTIVE_NetBIOS",
+                        "range": null,
+                        "title": "Enable NetBIOS",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_Preferences",
+                        "name": "ARDUINO_SELECTIVE_Preferences",
+                        "range": null,
+                        "title": "Enable Preferences",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_SD",
+                        "name": "ARDUINO_SELECTIVE_SD",
+                        "range": null,
+                        "title": "Enable SD",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_SD_MMC",
+                        "name": "ARDUINO_SELECTIVE_SD_MMC",
+                        "range": null,
+                        "title": "Enable SD_MMC",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_SimpleBLE",
+                        "name": "ARDUINO_SELECTIVE_SimpleBLE",
+                        "range": null,
+                        "title": "Enable SimpleBLE",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_SPI",
+                        "name": "ARDUINO_SELECTIVE_SPI",
+                        "range": null,
+                        "title": "Enable SPI",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_SPIFFS",
+                        "name": "ARDUINO_SELECTIVE_SPIFFS",
+                        "range": null,
+                        "title": "Enable SPIFFS",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_Ticker",
+                        "name": "ARDUINO_SELECTIVE_Ticker",
+                        "range": null,
+                        "title": "Enable Ticker",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_Update",
+                        "name": "ARDUINO_SELECTIVE_Update",
+                        "range": null,
+                        "title": "Enable Update",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_WebServer",
+                        "name": "ARDUINO_SELECTIVE_WebServer",
+                        "range": null,
+                        "title": "Enable WebServer",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_WiFi",
+                        "name": "ARDUINO_SELECTIVE_WiFi",
+                        "range": null,
+                        "title": "Enable WiFi",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_WiFiClientSecure",
+                        "name": "ARDUINO_SELECTIVE_WiFiClientSecure",
+                        "range": null,
+                        "title": "Enable WiFiClientSecure",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_WiFiProv",
+                        "name": "ARDUINO_SELECTIVE_WiFiProv",
+                        "range": null,
+                        "title": "Enable WiFiProv",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "ARDUINO_SELECTIVE_COMPILATION",
+                        "help": null,
+                        "id": "ARDUINO_SELECTIVE_Wire",
+                        "name": "ARDUINO_SELECTIVE_Wire",
+                        "range": null,
+                        "title": "Enable Wire",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "help": null,
+                "id": "ARDUINO_SELECTIVE_COMPILATION",
+                "name": "ARDUINO_SELECTIVE_COMPILATION",
+                "range": null,
+                "title": "Include only specific Arduino libraries",
+                "type": "bool"
+            }
+        ],
+        "depends_on": null,
+        "id": "arduino-configuration",
+        "title": "Arduino Configuration",
+        "type": "menu"
+    },
+    {
+        "children": [
+            {
                 "children": [
                     {
                         "children": [],
@@ -3693,7 +2878,7 @@
             },
             {
                 "children": [],
-                "depends_on": null,
+                "depends_on": "IDF_CMAKE",
                 "help": "When expanding the __FILE__ and __BASE_FILE__ macros, replace paths inside ESP-IDF\nwith paths relative to the placeholder string \"IDF\", and convert paths inside the\nproject directory to relative paths.\n\nThis allows building the project with assertions or other code that embeds file paths,\nwithout the binary containing the exact path to the IDF or project directories.\n\nThis option passes -fmacro-prefix-map options to the GCC command line. To replace additional\npaths in your binaries, modify the project CMakeLists.txt file to pass custom -fmacro-prefix-map or\n-ffile-prefix-map arguments.",
                 "id": "COMPILER_HIDE_PATHS_MACROS",
                 "is_menuconfig": true,
@@ -3974,10 +3159,40 @@
                                                 "children": [],
                                                 "depends_on": "!PM_ENABLE && !IDF_TARGET_ESP32C3 && <choice APPTRACE_SV_TS_SOURCE>",
                                                 "help": null,
-                                                "id": "APPTRACE_SV_TS_SOURCE_GPTIMER",
-                                                "name": "APPTRACE_SV_TS_SOURCE_GPTIMER",
+                                                "id": "APPTRACE_SV_TS_SOURCE_TIMER_00",
+                                                "name": "APPTRACE_SV_TS_SOURCE_TIMER_00",
                                                 "range": null,
-                                                "title": "General Purpose Timer (Timer Group)",
+                                                "title": "Timer 0, Group 0",
+                                                "type": "bool"
+                                            },
+                                            {
+                                                "children": [],
+                                                "depends_on": "!PM_ENABLE && !IDF_TARGET_ESP32C3 && <choice APPTRACE_SV_TS_SOURCE>",
+                                                "help": null,
+                                                "id": "APPTRACE_SV_TS_SOURCE_TIMER_01",
+                                                "name": "APPTRACE_SV_TS_SOURCE_TIMER_01",
+                                                "range": null,
+                                                "title": "Timer 1, Group 0",
+                                                "type": "bool"
+                                            },
+                                            {
+                                                "children": [],
+                                                "depends_on": "!PM_ENABLE && !IDF_TARGET_ESP32C3 && <choice APPTRACE_SV_TS_SOURCE>",
+                                                "help": null,
+                                                "id": "APPTRACE_SV_TS_SOURCE_TIMER_10",
+                                                "name": "APPTRACE_SV_TS_SOURCE_TIMER_10",
+                                                "range": null,
+                                                "title": "Timer 0, Group 1",
+                                                "type": "bool"
+                                            },
+                                            {
+                                                "children": [],
+                                                "depends_on": "!PM_ENABLE && !IDF_TARGET_ESP32C3 && <choice APPTRACE_SV_TS_SOURCE>",
+                                                "help": null,
+                                                "id": "APPTRACE_SV_TS_SOURCE_TIMER_11",
+                                                "name": "APPTRACE_SV_TS_SOURCE_TIMER_11",
+                                                "range": null,
+                                                "title": "Timer 1, Group 1",
                                                 "type": "bool"
                                             },
                                             {
@@ -4212,16 +3427,6 @@
                                 "name": "ASIO_SSL_LIBRARY_CHOICE",
                                 "title": "Choose SSL/TLS library for ESP-TLS (See help for more Info)",
                                 "type": "choice"
-                            },
-                            {
-                                "children": [],
-                                "depends_on": "ASIO_SSL_SUPPORT",
-                                "help": "Size in bytes of SSL-BIO implementation.\nReducing the BIO size saves more RAM, but may slow down input output operations due to\nfragmentation.",
-                                "id": "ASIO_SSL_BIO_SIZE",
-                                "name": "ASIO_SSL_BIO_SIZE",
-                                "range": null,
-                                "title": "Size of BIO object",
-                                "type": "int"
                             }
                         ],
                         "depends_on": null,
@@ -7403,16 +6608,6 @@
                             {
                                 "children": [],
                                 "depends_on": "BT_BLUEDROID_ENABLED && BT_BLUEDROID_ENABLED",
-                                "help": "Bluetooth Device name length shall be no larger than 248 octets, If the broadcast data cannot contain\nthe complete device name, then only the shortname will be displayed, the rest parts that can't fit in\nwill be truncated.",
-                                "id": "BT_MAX_DEVICE_NAME_LEN",
-                                "name": "BT_MAX_DEVICE_NAME_LEN",
-                                "range": null,
-                                "title": "length of bluetooth device name",
-                                "type": "int"
-                            },
-                            {
-                                "children": [],
-                                "depends_on": "BT_BLUEDROID_ENABLED && BT_BLUEDROID_ENABLED",
                                 "help": "This enables controller RPA list function.\nFor ESP32, ESP32 only support network privacy mode. If this option is enabled, ESP32 will only accept\nadvertising packets from peer devices that contain private address, HW will not receive the advertising\npackets contain identity address after IRK changed. If this option is disabled, address resolution will\nbe performed in the host, so the functions that require controller to resolve address in the white list\ncannot be used. This option is disabled by default on ESP32, please enable or disable this option according\nto your own needs.\n\nFor ESP32C3 and esp32s3, devices support network privacy mode and device privacy mode, users can switch the\ntwo modes according to their own needs. So this option is enabled by default.",
                                 "id": "BT_BLE_RPA_SUPPORTED",
                                 "name": "BT_BLE_RPA_SUPPORTED",
@@ -9959,6 +9154,24 @@
                             {
                                 "children": [],
                                 "depends_on": "IDF_TARGET_ESP32",
+                                "help": "The the array `rtc_gpio_desc` will don't compile by default.\nIf this option is selected, the array `rtc_gpio_desc` can be compile.\nIf user use this array, please enable this configuration.",
+                                "id": "RTCIO_SUPPORT_RTC_GPIO_DESC",
+                                "name": "RTCIO_SUPPORT_RTC_GPIO_DESC",
+                                "range": null,
+                                "title": "Support array `rtc_gpio_desc` for ESP32",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": null,
+                        "id": "component-config-driver-configurations-rtcio-configuration",
+                        "title": "RTCIO configuration",
+                        "type": "menu"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": "IDF_TARGET_ESP32",
                                 "help": "This option is intended to fix the bug that ESP32 is not able to switch to configured\npullup/pulldown mode in sleep.\nIf this option is selected, chip will automatically emulate the behaviour of switching,\nand about 450B of source codes would be placed into IRAM.",
                                 "id": "GPIO_ESP32_SUPPORT_SWITCH_SLP_PULL",
                                 "name": "GPIO_ESP32_SUPPORT_SWITCH_SLP_PULL",
@@ -9998,44 +9211,6 @@
                         "depends_on": null,
                         "id": "component-config-driver-configurations-gdma-configuration",
                         "title": "GDMA Configuration",
-                        "type": "menu"
-                    },
-                    {
-                        "children": [
-                            {
-                                "children": [],
-                                "depends_on": null,
-                                "help": "Place GPTimer control functions (like start/stop) into IRAM,\nso that these functions can be IRAM-safe and able to be called in the other IRAM interrupt context.\nEnabling this option can improve driver performance as well.",
-                                "id": "GPTIMER_CTRL_FUNC_IN_IRAM",
-                                "name": "GPTIMER_CTRL_FUNC_IN_IRAM",
-                                "range": null,
-                                "title": "Place GPTimer control functions into IRAM",
-                                "type": "bool"
-                            },
-                            {
-                                "children": [],
-                                "depends_on": null,
-                                "help": "This will ensure the GPTimer interrupt handle is IRAM-Safe, allow to avoid flash\ncache misses, and also be able to run whilst the cache is disabled.\n(e.g. SPI Flash write)",
-                                "id": "GPTIMER_ISR_IRAM_SAFE",
-                                "name": "GPTIMER_ISR_IRAM_SAFE",
-                                "range": null,
-                                "title": "GPTimer ISR IRAM-Safe",
-                                "type": "bool"
-                            },
-                            {
-                                "children": [],
-                                "depends_on": null,
-                                "help": "Wether to suppress the deprecation warnings when using legacy timer group driver (driver/timer.h).\nIf you want to continue using the legacy driver, and don't want to see related deprecation warnings,\nyou can enable this option.",
-                                "id": "GPTIMER_SUPPRESS_DEPRECATE_WARN",
-                                "name": "GPTIMER_SUPPRESS_DEPRECATE_WARN",
-                                "range": null,
-                                "title": "Suppress leagcy driver deprecated warning",
-                                "type": "bool"
-                            }
-                        ],
-                        "depends_on": null,
-                        "id": "component-config-driver-configurations-gptimer-configuration",
-                        "title": "GPTimer Configuration",
                         "type": "menu"
                     }
                 ],
@@ -11321,6 +10496,47 @@
             {
                 "children": [
                     {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Configure the IPC tasks stack size. An IPC task runs on each core (in dual core mode), and allows for\ncross-core function calls. See IPC documentation for more details. The default IPC stack size should be\nenough for most common simple use cases. However, users can increase/decrease the stack size to their\nneeds.",
+                        "id": "ESP_IPC_TASK_STACK_SIZE",
+                        "name": "ESP_IPC_TASK_STACK_SIZE",
+                        "range": [
+                            512,
+                            65536
+                        ],
+                        "title": "Inter-Processor Call (IPC) task stack size",
+                        "type": "int"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "!FREERTOS_UNICORE",
+                        "help": "If this option is not enabled then the IPC task will keep behavior same as prior to that of ESP-IDF v4.0,\nhence IPC task will run at (configMAX_PRIORITIES - 1) priority.",
+                        "id": "ESP_IPC_USES_CALLERS_PRIORITY",
+                        "name": "ESP_IPC_USES_CALLERS_PRIORITY",
+                        "range": null,
+                        "title": "IPC runs at caller's priority",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "The IPC ISR feature is similar to the IPC feature except that the callback function is executed in the\ncontext of a High Priority Interrupt. The IPC ISR feature is itended for low latency execution of simple\ncallbacks written in assembly on another CPU. Due to being run in a High Priority Interrupt, the assembly\ncallbacks must be written with particular restrictions (see \"IPC\" and \"High-Level Interrupt\" docs for more\ndetails).",
+                        "id": "ESP_IPC_ISR_ENABLE",
+                        "name": "ESP_IPC_ISR_ENABLE",
+                        "range": null,
+                        "title": null,
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-ipc-inter-processor-call-",
+                "title": "IPC (Inter-Processor Call)",
+                "type": "menu"
+            },
+            {
+                "children": [
+                    {
                         "children": [
                             {
                                 "children": [],
@@ -11397,37 +10613,6 @@
                         "name": "ESP_NETIF_TCPIP_ADAPTER_COMPATIBLE_LAYER",
                         "range": null,
                         "title": "Enable backward compatible tcpip_adapter interface",
-                        "type": "bool"
-                    },
-                    {
-                        "children": [
-                            {
-                                "children": [],
-                                "depends_on": "ESP_NETIF_L2_TAP",
-                                "help": "Maximum number of opened File descriptors (FD's) associated with ESP TAP device. ESP TAP FD's take up\na certain amount of memory, and allowing fewer FD's to be opened at the same time conserves memory.",
-                                "id": "ESP_NETIF_L2_TAP_MAX_FDS",
-                                "name": "ESP_NETIF_L2_TAP_MAX_FDS",
-                                "range": null,
-                                "title": "Maximum number of opened L2 TAP File descriptors",
-                                "type": "int"
-                            },
-                            {
-                                "children": [],
-                                "depends_on": "ESP_NETIF_L2_TAP",
-                                "help": "Maximum number of frames queued in opened File descriptor. Once the queue is full, the newly arriving\nframes are dropped until the queue has enough room to accept incoming traffic (Tail Drop queue\nmanagement).",
-                                "id": "ESP_NETIF_L2_TAP_RX_QUEUE_SIZE",
-                                "name": "ESP_NETIF_L2_TAP_RX_QUEUE_SIZE",
-                                "range": null,
-                                "title": "Size of L2 TAP Rx queue",
-                                "type": "int"
-                            }
-                        ],
-                        "depends_on": null,
-                        "help": "A user program can read/write link layer (L2) frames from/to ESP TAP device.\nThe ESP TAP device can be currently associated only with Ethernet physical interfaces.",
-                        "id": "ESP_NETIF_L2_TAP",
-                        "name": "ESP_NETIF_L2_TAP",
-                        "range": null,
-                        "title": "Enable netif L2 TAP support",
                         "type": "bool"
                     }
                 ],
@@ -11794,7 +10979,7 @@
                     },
                     {
                         "children": [],
-                        "depends_on": "!IDF_TARGET_ESP32C2",
+                        "depends_on": null,
                         "help": null,
                         "id": "ESP_SYSTEM_RTC_FAST_MEM_AS_HEAP_DEPCHECK",
                         "name": "ESP_SYSTEM_RTC_FAST_MEM_AS_HEAP_DEPCHECK",
@@ -12347,47 +11532,6 @@
                 "depends_on": null,
                 "id": "component-config-esp-system-settings",
                 "title": "ESP System Settings",
-                "type": "menu"
-            },
-            {
-                "children": [
-                    {
-                        "children": [],
-                        "depends_on": null,
-                        "help": "Configure the IPC tasks stack size. An IPC task runs on each core (in dual core mode), and allows for\ncross-core function calls. See IPC documentation for more details. The default IPC stack size should be\nenough for most common simple use cases. However, users can increase/decrease the stack size to their\nneeds.",
-                        "id": "ESP_IPC_TASK_STACK_SIZE",
-                        "name": "ESP_IPC_TASK_STACK_SIZE",
-                        "range": [
-                            512,
-                            65536
-                        ],
-                        "title": "Inter-Processor Call (IPC) task stack size",
-                        "type": "int"
-                    },
-                    {
-                        "children": [],
-                        "depends_on": "!FREERTOS_UNICORE",
-                        "help": "If this option is not enabled then the IPC task will keep behavior same as prior to that of ESP-IDF v4.0,\nhence IPC task will run at (configMAX_PRIORITIES - 1) priority.",
-                        "id": "ESP_IPC_USES_CALLERS_PRIORITY",
-                        "name": "ESP_IPC_USES_CALLERS_PRIORITY",
-                        "range": null,
-                        "title": "IPC runs at caller's priority",
-                        "type": "bool"
-                    },
-                    {
-                        "children": [],
-                        "depends_on": null,
-                        "help": "The IPC ISR feature is similar to the IPC feature except that the callback function is executed in the\ncontext of a High Priority Interrupt. The IPC ISR feature is itended for low latency execution of simple\ncallbacks written in assembly on another CPU. Due to being run in a High Priority Interrupt, the assembly\ncallbacks must be written with particular restrictions (see \"IPC\" and \"High-Level Interrupt\" docs for more\ndetails).",
-                        "id": "ESP_IPC_ISR_ENABLE",
-                        "name": "ESP_IPC_ISR_ENABLE",
-                        "range": null,
-                        "title": null,
-                        "type": "bool"
-                    }
-                ],
-                "depends_on": null,
-                "id": "component-config-ipc-inter-processor-call-",
-                "title": "IPC (Inter-Processor Call)",
                 "type": "menu"
             },
             {
@@ -13128,19 +12272,6 @@
             {
                 "children": [
                     {
-                        "children": [],
-                        "depends_on": null,
-                        "help": "Number of volumes (logical drives) to use.",
-                        "id": "FATFS_VOLUME_COUNT",
-                        "name": "FATFS_VOLUME_COUNT",
-                        "range": [
-                            1,
-                            10
-                        ],
-                        "title": "Number of volumes",
-                        "type": "int"
-                    },
-                    {
                         "children": [
                             {
                                 "children": [],
@@ -13855,11 +12986,63 @@
                     {
                         "children": [],
                         "depends_on": null,
-                        "help": "If this option is set the Modbus stack uses ISR dispatch method\nto send timeout events from the callback function called from ISR.\nThis option has dependency with the UART_ISR_IN_IRAM option which places UART interrupt\nhandler into IRAM to prevent delays related to processing of UART events.",
-                        "id": "FMB_TIMER_USE_ISR_DISPATCH_METHOD",
-                        "name": "FMB_TIMER_USE_ISR_DISPATCH_METHOD",
+                        "help": "Modbus slave Timer group number that is used for timeout measurement.",
+                        "id": "FMB_TIMER_GROUP",
+                        "name": "FMB_TIMER_GROUP",
+                        "range": [
+                            0,
+                            1
+                        ],
+                        "title": "Slave Timer group number",
+                        "type": "int"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Modbus slave Timer Index in the group that is used for timeout measurement.",
+                        "id": "FMB_TIMER_INDEX",
+                        "name": "FMB_TIMER_INDEX",
+                        "range": [
+                            0,
+                            1
+                        ],
+                        "title": "Slave Timer index in the group",
+                        "type": "int"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Modbus master Timer group number that is used for timeout measurement.",
+                        "id": "FMB_MASTER_TIMER_GROUP",
+                        "name": "FMB_MASTER_TIMER_GROUP",
+                        "range": [
+                            0,
+                            1
+                        ],
+                        "title": "Master Timer group number",
+                        "type": "int"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Modbus master Timer Index in the group that is used for timeout measurement.\nNote: Modbus master and slave should have different timer index to be able to work simultaneously.",
+                        "id": "FMB_MASTER_TIMER_INDEX",
+                        "name": "FMB_MASTER_TIMER_INDEX",
+                        "range": [
+                            0,
+                            1
+                        ],
+                        "title": "Master Timer index",
+                        "type": "int"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "This option places Modbus timer IRQ handler into IRAM.\nThis allows to avoid delays related to processing of non-IRAM-safe interrupts\nduring a flash write operation (NVS updating a value, or some other\nflash API which has to perform an read/write operation and disable CPU cache).\nThis option has dependency with the UART_ISR_IN_IRAM option which places UART interrupt\nhandler into IRAM to prevent delays related to processing of UART events.",
+                        "id": "FMB_TIMER_ISR_IN_IRAM",
+                        "name": "FMB_TIMER_ISR_IN_IRAM",
                         "range": null,
-                        "title": "Modbus timer uses ISR dispatch method",
+                        "title": "Place timer interrupt handler into IRAM",
                         "type": "bool"
                     }
                 ],
@@ -14087,6 +13270,46 @@
                         "type": "int"
                     },
                     {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": "!COMPILER_OPTIMIZATION_ASSERTIONS_DISABLE && <choice FREERTOS_ASSERT>",
+                                "help": "If a FreeRTOS configASSERT() fails, FreeRTOS will abort() and\nhalt execution. The panic handler can be configured to handle\nthe outcome of an abort() in different ways.\n\nIf assertions are disabled for the entire project, they are also\ndisabled in FreeRTOS and this option is unavailable.",
+                                "id": "FREERTOS_ASSERT_FAIL_ABORT",
+                                "name": "FREERTOS_ASSERT_FAIL_ABORT",
+                                "range": null,
+                                "title": "abort() on failed assertions",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice FREERTOS_ASSERT>",
+                                "help": "If a FreeRTOS assertion fails, print it out and continue.",
+                                "id": "FREERTOS_ASSERT_FAIL_PRINT_CONTINUE",
+                                "name": "FREERTOS_ASSERT_FAIL_PRINT_CONTINUE",
+                                "range": null,
+                                "title": "Print and continue failed assertions",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice FREERTOS_ASSERT>",
+                                "help": "FreeRTOS configASSERT() will not be compiled into the binary.",
+                                "id": "FREERTOS_ASSERT_DISABLE",
+                                "name": "FREERTOS_ASSERT_DISABLE",
+                                "range": null,
+                                "title": "Disable FreeRTOS assertions",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": null,
+                        "help": "Failed FreeRTOS configASSERT() assertions can be configured to\nbehave in different ways.\n\nBy default these behave the same as the global project assert settings.",
+                        "id": "component-config-freertos-freertos-assertions",
+                        "name": "FREERTOS_ASSERT",
+                        "title": "FreeRTOS assertions",
+                        "type": "choice"
+                    },
+                    {
                         "children": [],
                         "depends_on": null,
                         "help": "The idle task has its own stack, sized in bytes. The default size is enough for most uses. Size can be\nreduced to 768 bytes if no (or simple) FreeRTOS idle hooks are used and pthread local storage or FreeRTOS\nlocal storage cleanup callbacks are not used.\n\nThe stack size may need to be increased above the default if the app installs idle or thread local storage\ncleanup hooks that use a lot of stack memory.",
@@ -14303,7 +13526,7 @@
                     },
                     {
                         "children": [],
-                        "depends_on": "COMPILER_OPTIMIZATION_DEFAULT || ESP_COREDUMP_ENABLE || ESP_GDBSTUB_ENABLED",
+                        "depends_on": "COMPILER_OPTIMIZATION_DEFAULT",
                         "help": "If enabled, all FreeRTOS task functions will be enclosed in a wrapper function.\nIf a task function mistakenly returns (i.e. does not delete), the call flow will\nreturn to the wrapper function. The wrapper function will then log an error and\nabort the application. This option is also required for GDB backtraces and C++\nexceptions to work correctly inside top-level task functions.",
                         "id": "FREERTOS_TASK_FUNCTION_WRAPPER",
                         "name": "FREERTOS_TASK_FUNCTION_WRAPPER",
@@ -14615,6 +13838,52 @@
             {
                 "children": [
                     {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "You can access to parent node of parsed json",
+                        "id": "JSMN_PARENT_LINKS",
+                        "name": "JSMN_PARENT_LINKS",
+                        "range": null,
+                        "title": "Enable parent links",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "In strict mode primitives are: numbers and booleans",
+                        "id": "JSMN_STRICT",
+                        "name": "JSMN_STRICT",
+                        "range": null,
+                        "title": "Enable strict mode",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-jsmn",
+                "title": "jsmn",
+                "type": "menu"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depends_on": "!MBEDTLS_HARDWARE_SHA",
+                        "help": "If this option is enabled, libsodium will use thin wrappers\naround mbedTLS for SHA256 & SHA512 operations.\n\nThis saves some code size if mbedTLS is also used. However it\nis incompatible with hardware SHA acceleration (due to the\nway libsodium's API manages SHA state).",
+                        "id": "LIBSODIUM_USE_MBEDTLS_SHA",
+                        "name": "LIBSODIUM_USE_MBEDTLS_SHA",
+                        "range": null,
+                        "title": "Use mbedTLS SHA256 & SHA512 implementations",
+                        "type": "bool"
+                    }
+                ],
+                "depends_on": null,
+                "id": "component-config-libsodium",
+                "title": "libsodium",
+                "type": "menu"
+            },
+            {
+                "children": [
+                    {
                         "children": [
                             {
                                 "children": [],
@@ -14908,7 +14177,7 @@
                     {
                         "children": [],
                         "depends_on": null,
-                        "help": "This option is deprecated. Do not use this option, use VFS_SUPPORT_SELECT instead.",
+                        "help": "This option is deprecated. Use VFS_SUPPORT_SELECT instead, which is\nthe inverse of this option.\n\nThe virtual filesystem layer of select() redirects sockets to\nlwip_select() and non-socket file descriptors to their respective driver\nimplementations. If this option is enabled then all calls of select()\nwill be redirected to lwip_select(), therefore, select can be used\nfor sockets only.",
                         "id": "LWIP_USE_ONLY_LWIP_SELECT",
                         "name": "LWIP_USE_ONLY_LWIP_SELECT",
                         "range": null,
@@ -15035,6 +14304,16 @@
                         "name": "LWIP_STATS",
                         "range": null,
                         "title": "Enable LWIP statistics",
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": null,
+                        "help": "Enabling this option allows ARP table to be updated.\n\nIf this option is enabled, the incoming IP packets cause the ARP table to be\nupdated with the source MAC and IP addresses supplied in the packet.\nYou may want to disable this if you do not trust LAN peers to have the\ncorrect addresses, or as a limited approach to attempt to handle\nspoofing. If disabled, lwIP will need to make a new ARP request if\nthe peer is not already in the ARP table, adding a little latency.\nThe peer *is* in the ARP table if it requested our address before.\nAlso notice that this slows down input processing of every IP packet!\n\nThere are two known issues in real application if this feature is enabled:\n- The LAN peer may have bug to update the ARP table after the ARP entry is aged out.\nIf the ARP entry on the LAN peer is aged out but failed to be updated, all IP packets\nsent from LWIP to the LAN peer will be dropped by LAN peer.\n- The LAN peer may not be trustful, the LAN peer may send IP packets to LWIP with\ntwo different MACs, but the same IP address. If this happens, the LWIP has problem\nto receive IP packets from LAN peer.\n\nSo the recommendation is to disable this option.\nHere the LAN peer means the other side to which the ESP station or soft-AP is connected.",
+                        "id": "LWIP_ETHARP_TRUST_IP_MAC",
+                        "name": "LWIP_ETHARP_TRUST_IP_MAC",
+                        "range": null,
+                        "title": "Enable LWIP ARP trust",
                         "type": "bool"
                     },
                     {
@@ -15299,7 +14578,7 @@
                             }
                         ],
                         "depends_on": null,
-                        "help": "Enabling this option means that if a packet is sent with a destination\naddress equal to the interface's own IP address, it will \"loop back\" and\nbe received by this interface.\nDisabling this option disables support of loopback interface in lwIP",
+                        "help": "Enabling this option means that if a packet is sent with a destination\naddress equal to the interface's own IP address, it will \"loop back\" and\nbe received by this interface.",
                         "id": "LWIP_NETIF_LOOPBACK",
                         "is_menuconfig": true,
                         "name": "LWIP_NETIF_LOOPBACK",
@@ -15444,24 +14723,33 @@
                                 "type": "int"
                             },
                             {
-                                "children": [
-                                    {
-                                        "children": [],
-                                        "depends_on": "LWIP_TCP_QUEUE_OOSEQ",
-                                        "help": "TCP will support sending selective acknowledgements (SACKs).",
-                                        "id": "LWIP_TCP_SACK_OUT",
-                                        "name": "LWIP_TCP_SACK_OUT",
-                                        "range": null,
-                                        "title": "Support sending selective acknowledgements",
-                                        "type": "bool"
-                                    }
-                                ],
+                                "children": [],
                                 "depends_on": null,
                                 "help": "Queue incoming out-of-order segments for later use.\n\nDisable this option to save some RAM during TCP sessions, at the expense\nof increased retransmissions if segments arrive out of order.",
                                 "id": "LWIP_TCP_QUEUE_OOSEQ",
                                 "name": "LWIP_TCP_QUEUE_OOSEQ",
                                 "range": null,
                                 "title": "Queue incoming out-of-order segments",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "TCP will support sending selective acknowledgements (SACKs).",
+                                "id": "LWIP_TCP_SACK_OUT",
+                                "name": "LWIP_TCP_SACK_OUT",
+                                "range": null,
+                                "title": "Support sending selective acknowledgements",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "This option is enabled when the following scenario happen:\nnetwork dropped and reconnected, IP changes is like: 192.168.0.2->0.0.0.0->192.168.0.2\n\nDisable this option to keep consistent with the original LWIP code behavior.",
+                                "id": "LWIP_TCP_KEEP_CONNECTION_WHEN_IP_CHANGES",
+                                "name": "LWIP_TCP_KEEP_CONNECTION_WHEN_IP_CHANGES",
+                                "range": null,
+                                "title": "Keep TCP connections when IP changed",
                                 "type": "bool"
                             },
                             {
@@ -16122,46 +15410,6 @@
                                 "name": "LWIP_HOOK_NETCONN_EXTERNAL_RESOLVE",
                                 "title": "Netconn external resolve Hook",
                                 "type": "choice"
-                            },
-                            {
-                                "children": [
-                                    {
-                                        "children": [],
-                                        "depends_on": "<choice LWIP_HOOK_IP6_INPUT>",
-                                        "help": null,
-                                        "id": "LWIP_HOOK_IP6_INPUT_NONE",
-                                        "name": "LWIP_HOOK_IP6_INPUT_NONE",
-                                        "range": null,
-                                        "title": "No hook declared",
-                                        "type": "bool"
-                                    },
-                                    {
-                                        "children": [],
-                                        "depends_on": "<choice LWIP_HOOK_IP6_INPUT>",
-                                        "help": null,
-                                        "id": "LWIP_HOOK_IP6_INPUT_DEFAULT",
-                                        "name": "LWIP_HOOK_IP6_INPUT_DEFAULT",
-                                        "range": null,
-                                        "title": "Default (weak) implementation",
-                                        "type": "bool"
-                                    },
-                                    {
-                                        "children": [],
-                                        "depends_on": "<choice LWIP_HOOK_IP6_INPUT>",
-                                        "help": null,
-                                        "id": "LWIP_HOOK_IP6_INPUT_CUSTOM",
-                                        "name": "LWIP_HOOK_IP6_INPUT_CUSTOM",
-                                        "range": null,
-                                        "title": "Custom implementation",
-                                        "type": "bool"
-                                    }
-                                ],
-                                "depends_on": "LWIP_IPV6",
-                                "help": "Enables custom IPv6 packet input.\nSetting this to \"default\" provides weak implementation\nstub that could be overwritten in application code.\nSetting this to \"custom\" provides hook's declaration\nonly and expects the application to implement it.",
-                                "id": "component-config-lwip-hooks-ipv6-packet-input",
-                                "name": "LWIP_HOOK_IP6_INPUT",
-                                "title": "IPv6 packet input",
-                                "type": "choice"
                             }
                         ],
                         "depends_on": null,
@@ -16460,7 +15708,7 @@
                                 "type": "bool"
                             }
                         ],
-                        "depends_on": "!MBEDTLS_SSL_PROTO_DTLS",
+                        "depends_on": "!MBEDTLS_SSL_PROTO_DTLS && !MBEDTLS_SSL_VARIABLE_BUFFER_LENGTH",
                         "help": "Using dynamic TX/RX buffer. After enabling this option, mbedTLS will\nallocate TX buffer when need to send data and then free it if all data\nis sent, allocate RX buffer when need to receive data and then free it\nwhen all data is used or read by upper layer.\n\nBy default, when SSL is initialized, mbedTLS also allocate TX and\nRX buffer with the default value of \"MBEDTLS_SSL_OUT_CONTENT_LEN\" or\n\"MBEDTLS_SSL_IN_CONTENT_LEN\", so to save more heap, users can set\nthe options to be an appropriate value.",
                         "id": "MBEDTLS_DYNAMIC_BUFFER",
                         "name": "MBEDTLS_DYNAMIC_BUFFER",
@@ -16538,6 +15786,123 @@
                         "range": null,
                         "title": null,
                         "type": "int"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "This enables the SSL buffer to be resized automatically\nbased on the negotiated maximum fragment length in each direction.",
+                                "id": "MBEDTLS_SSL_VARIABLE_BUFFER_LENGTH",
+                                "name": "MBEDTLS_SSL_VARIABLE_BUFFER_LENGTH",
+                                "range": null,
+                                "title": "Variable SSL buffer length",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "MBEDTLS_ECDH_C && MBEDTLS_ECP_RESTARTABLE",
+                                "help": "Use the legacy ECDH context format.\nDefine this option only if you enable MBEDTLS_ECP_RESTARTABLE or if you\nwant to access ECDH context fields directly.",
+                                "id": "MBEDTLS_ECDH_LEGACY_CONTEXT",
+                                "name": "MBEDTLS_ECDH_LEGACY_CONTEXT",
+                                "range": null,
+                                "title": "Use a backward compatible ECDH context (Experimental)",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "Enables users to configure the set of trusted certificates\nthrough a callback instead of a linked list.\n\nSee mbedTLS documentation for required API and more details.",
+                                "id": "MBEDTLS_X509_TRUSTED_CERT_CALLBACK",
+                                "name": "MBEDTLS_X509_TRUSTED_CERT_CALLBACK",
+                                "range": null,
+                                "title": "Enable trusted certificate callbacks",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "Enable serialization of the TLS context structures\nThis is a local optimization in handling a single, potentially long-lived connection.\n\nSee mbedTLS documentation for required API and more details.\nDisabling this option will save some code size.",
+                                "id": "MBEDTLS_SSL_CONTEXT_SERIALIZATION",
+                                "name": "MBEDTLS_SSL_CONTEXT_SERIALIZATION",
+                                "range": null,
+                                "title": "Enable serialization of the TLS context structures",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "!MBEDTLS_DYNAMIC_FREE_PEER_CERT",
+                                "help": "Keep the peer's certificate after completion of the handshake.\nDisabling this option will save about 4kB of heap and some code size.\n\nSee mbedTLS documentation for required API and more details.",
+                                "id": "MBEDTLS_SSL_KEEP_PEER_CERTIFICATE",
+                                "name": "MBEDTLS_SSL_KEEP_PEER_CERTIFICATE",
+                                "range": null,
+                                "title": "Keep peer certificate after handshake completion",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "depends_on": "MBEDTLS_SSL_DTLS_CONNECTION_ID",
+                                                "help": "Maximum length of CIDs used for incoming DTLS messages",
+                                                "id": "MBEDTLS_SSL_CID_IN_LEN_MAX",
+                                                "name": "MBEDTLS_SSL_CID_IN_LEN_MAX",
+                                                "range": null,
+                                                "title": "Maximum length of CIDs used for incoming DTLS messages",
+                                                "type": "int"
+                                            },
+                                            {
+                                                "children": [],
+                                                "depends_on": "MBEDTLS_SSL_DTLS_CONNECTION_ID",
+                                                "help": "Maximum length of CIDs used for outgoing DTLS messages",
+                                                "id": "MBEDTLS_SSL_CID_OUT_LEN_MAX",
+                                                "name": "MBEDTLS_SSL_CID_OUT_LEN_MAX",
+                                                "range": null,
+                                                "title": "Maximum length of CIDs used for outgoing DTLS messages",
+                                                "type": "int"
+                                            },
+                                            {
+                                                "children": [],
+                                                "depends_on": "MBEDTLS_SSL_DTLS_CONNECTION_ID",
+                                                "help": "Controls the use of record plaintext padding when\nusing the Connection ID extension in DTLS 1.2.\n\nThe padding will always be chosen so that the length of the\npadded plaintext is a multiple of the value of this option.\n\nNotes:\n    A value of 1 means that no padding will be used for outgoing records.\n    On systems lacking division instructions, a power of two should be preferred.",
+                                                "id": "MBEDTLS_SSL_CID_PADDING_GRANULARITY",
+                                                "name": "MBEDTLS_SSL_CID_PADDING_GRANULARITY",
+                                                "range": null,
+                                                "title": "Record plaintext padding (for DTLS 1.2)",
+                                                "type": "int"
+                                            }
+                                        ],
+                                        "depends_on": "MBEDTLS_SSL_PROTO_DTLS",
+                                        "help": "Enable support for the DTLS Connection ID extension which allows to\nidentify DTLS connections across changes in the underlying transport.\nThe Connection ID extension is still in draft state.\nRefer: version draft-ietf-tls-dtls-connection-id-05",
+                                        "id": "MBEDTLS_SSL_DTLS_CONNECTION_ID",
+                                        "name": "MBEDTLS_SSL_DTLS_CONNECTION_ID",
+                                        "range": null,
+                                        "title": "Support for the DTLS Connection ID extension",
+                                        "type": "bool"
+                                    },
+                                    {
+                                        "children": [],
+                                        "depends_on": "MBEDTLS_SSL_PROTO_DTLS",
+                                        "help": "Enable support for negotiation of DTLS-SRTP (RFC 5764) through the use_srtp extension.\n\nSee mbedTLS documentation for required API and more details.\nDisabling this option will save some code size.",
+                                        "id": "MBEDTLS_SSL_DTLS_SRTP",
+                                        "name": "MBEDTLS_SSL_DTLS_SRTP",
+                                        "range": null,
+                                        "title": "Enable support for negotiation of DTLS-SRTP (RFC 5764)",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": null,
+                                "id": "component-config-mbedtls-mbedtls-v2-28-x-related-dtls-based-configurations",
+                                "title": "DTLS-based configurations",
+                                "type": "menu"
+                            }
+                        ],
+                        "depends_on": null,
+                        "id": "component-config-mbedtls-mbedtls-v2-28-x-related",
+                        "title": "mbedTLS v2.28.x related",
+                        "type": "menu"
                     },
                     {
                         "children": [
@@ -16662,7 +16027,7 @@
                                 "type": "bool"
                             }
                         ],
-                        "depends_on": "!SPIRAM_CACHE_WORKAROUND_STRATEGY_DUPLDST && !IDF_TARGET_ESP32C2",
+                        "depends_on": "!SPIRAM_CACHE_WORKAROUND_STRATEGY_DUPLDST",
                         "help": "Enable hardware accelerated AES encryption & decryption.\n\nNote that if the ESP32 CPU is running at 240MHz, hardware AES does not\noffer any speed boost over software AES.",
                         "id": "MBEDTLS_HARDWARE_AES",
                         "name": "MBEDTLS_HARDWARE_AES",
@@ -16671,19 +16036,8 @@
                         "type": "bool"
                     },
                     {
-                        "children": [
-                            {
-                                "children": [],
-                                "depends_on": "!IDF_TARGET_ESP32 && MBEDTLS_HARDWARE_MPI",
-                                "help": "Use an interrupt to coordinate long MPI operations.\n\nThis allows other code to run on the CPU while an MPI operation is pending.\nOtherwise the CPU busy-waits.",
-                                "id": "MBEDTLS_MPI_USE_INTERRUPT",
-                                "name": "MBEDTLS_MPI_USE_INTERRUPT",
-                                "range": null,
-                                "title": "Use interrupt for MPI exp-mod operations",
-                                "type": "bool"
-                            }
-                        ],
-                        "depends_on": "!SPIRAM_CACHE_WORKAROUND_STRATEGY_DUPLDST && !IDF_TARGET_ESP32C2",
+                        "children": [],
+                        "depends_on": "!SPIRAM_CACHE_WORKAROUND_STRATEGY_DUPLDST",
                         "help": "Enable hardware accelerated multiple precision integer operations.\n\nHardware accelerated multiplication, modulo multiplication,\nand modular exponentiation for up to SOC_RSA_MAX_BIT_LEN bit results.\n\nThese operations are used by RSA.",
                         "id": "MBEDTLS_HARDWARE_MPI",
                         "name": "MBEDTLS_HARDWARE_MPI",
@@ -16868,7 +16222,7 @@
                                     },
                                     {
                                         "children": [],
-                                        "depends_on": "MBEDTLS_PSK_MODES && MBEDTLS_DHM_C && MBEDTLS_TLS_ENABLED",
+                                        "depends_on": "MBEDTLS_PSK_MODES && MBEDTLS_TLS_ENABLED",
                                         "help": "Enable to support Diffie-Hellman PSK (pre-shared-key) TLS authentication modes.",
                                         "id": "MBEDTLS_KEY_EXCHANGE_DHE_PSK",
                                         "name": "MBEDTLS_KEY_EXCHANGE_DHE_PSK",
@@ -16917,7 +16271,7 @@
                             },
                             {
                                 "children": [],
-                                "depends_on": "MBEDTLS_DHM_C && MBEDTLS_TLS_ENABLED",
+                                "depends_on": "MBEDTLS_TLS_ENABLED",
                                 "help": "Enable to support ciphersuites with prefix TLS-DHE-RSA-WITH-",
                                 "id": "MBEDTLS_KEY_EXCHANGE_DHE_RSA",
                                 "name": "MBEDTLS_KEY_EXCHANGE_DHE_RSA",
@@ -17299,7 +16653,169 @@
                         "type": "menu"
                     },
                     {
-                        "children": [],
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depends_on": "MBEDTLS_ECDH_C",
+                                        "help": "Enable ECDSA. Needed to use ECDSA-xxx TLS ciphersuites.",
+                                        "id": "MBEDTLS_ECDSA_C",
+                                        "name": "MBEDTLS_ECDSA_C",
+                                        "range": null,
+                                        "title": "Elliptic Curve DSA",
+                                        "type": "bool"
+                                    }
+                                ],
+                                "depends_on": "MBEDTLS_ECP_C",
+                                "help": "Enable ECDH. Needed to use ECDHE-xxx TLS ciphersuites.",
+                                "id": "MBEDTLS_ECDH_C",
+                                "name": "MBEDTLS_ECDH_C",
+                                "range": null,
+                                "title": "Elliptic Curve Diffie-Hellman (ECDH)",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "MBEDTLS_ECP_C",
+                                "help": "Enable ECJPAKE. Needed to use ECJPAKE-xxx TLS ciphersuites.",
+                                "id": "MBEDTLS_ECJPAKE_C",
+                                "name": "MBEDTLS_ECJPAKE_C",
+                                "range": null,
+                                "title": "Elliptic curve J-PAKE",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "MBEDTLS_ECP_C",
+                                "help": "Enable support for SECP192R1 Elliptic Curve.",
+                                "id": "MBEDTLS_ECP_DP_SECP192R1_ENABLED",
+                                "name": "MBEDTLS_ECP_DP_SECP192R1_ENABLED",
+                                "range": null,
+                                "title": "Enable SECP192R1 curve",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "MBEDTLS_ECP_C",
+                                "help": "Enable support for SECP224R1 Elliptic Curve.",
+                                "id": "MBEDTLS_ECP_DP_SECP224R1_ENABLED",
+                                "name": "MBEDTLS_ECP_DP_SECP224R1_ENABLED",
+                                "range": null,
+                                "title": "Enable SECP224R1 curve",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "MBEDTLS_ECP_C",
+                                "help": "Enable support for SECP256R1 Elliptic Curve.",
+                                "id": "MBEDTLS_ECP_DP_SECP256R1_ENABLED",
+                                "name": "MBEDTLS_ECP_DP_SECP256R1_ENABLED",
+                                "range": null,
+                                "title": "Enable SECP256R1 curve",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "MBEDTLS_ECP_C",
+                                "help": "Enable support for SECP384R1 Elliptic Curve.",
+                                "id": "MBEDTLS_ECP_DP_SECP384R1_ENABLED",
+                                "name": "MBEDTLS_ECP_DP_SECP384R1_ENABLED",
+                                "range": null,
+                                "title": "Enable SECP384R1 curve",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "MBEDTLS_ECP_C",
+                                "help": "Enable support for SECP521R1 Elliptic Curve.",
+                                "id": "MBEDTLS_ECP_DP_SECP521R1_ENABLED",
+                                "name": "MBEDTLS_ECP_DP_SECP521R1_ENABLED",
+                                "range": null,
+                                "title": "Enable SECP521R1 curve",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "MBEDTLS_ECP_C",
+                                "help": "Enable support for SECP192K1 Elliptic Curve.",
+                                "id": "MBEDTLS_ECP_DP_SECP192K1_ENABLED",
+                                "name": "MBEDTLS_ECP_DP_SECP192K1_ENABLED",
+                                "range": null,
+                                "title": "Enable SECP192K1 curve",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "MBEDTLS_ECP_C",
+                                "help": "Enable support for SECP224K1 Elliptic Curve.",
+                                "id": "MBEDTLS_ECP_DP_SECP224K1_ENABLED",
+                                "name": "MBEDTLS_ECP_DP_SECP224K1_ENABLED",
+                                "range": null,
+                                "title": "Enable SECP224K1 curve",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "MBEDTLS_ECP_C",
+                                "help": "Enable support for SECP256K1 Elliptic Curve.",
+                                "id": "MBEDTLS_ECP_DP_SECP256K1_ENABLED",
+                                "name": "MBEDTLS_ECP_DP_SECP256K1_ENABLED",
+                                "range": null,
+                                "title": "Enable SECP256K1 curve",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "MBEDTLS_ECP_C",
+                                "help": "support for DP Elliptic Curve.",
+                                "id": "MBEDTLS_ECP_DP_BP256R1_ENABLED",
+                                "name": "MBEDTLS_ECP_DP_BP256R1_ENABLED",
+                                "range": null,
+                                "title": "Enable BP256R1 curve",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "MBEDTLS_ECP_C",
+                                "help": "support for DP Elliptic Curve.",
+                                "id": "MBEDTLS_ECP_DP_BP384R1_ENABLED",
+                                "name": "MBEDTLS_ECP_DP_BP384R1_ENABLED",
+                                "range": null,
+                                "title": "Enable BP384R1 curve",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "MBEDTLS_ECP_C",
+                                "help": "support for DP Elliptic Curve.",
+                                "id": "MBEDTLS_ECP_DP_BP512R1_ENABLED",
+                                "name": "MBEDTLS_ECP_DP_BP512R1_ENABLED",
+                                "range": null,
+                                "title": "Enable BP512R1 curve",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "MBEDTLS_ECP_C",
+                                "help": "Enable support for CURVE25519 Elliptic Curve.",
+                                "id": "MBEDTLS_ECP_DP_CURVE25519_ENABLED",
+                                "name": "MBEDTLS_ECP_DP_CURVE25519_ENABLED",
+                                "range": null,
+                                "title": "Enable CURVE25519 curve",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "MBEDTLS_ECP_C",
+                                "help": "NIST 'modulo p' optimisations increase Elliptic Curve operation performance.\n\nDisabling this option saves some code size.\n\n# end of Elliptic Curve options",
+                                "id": "MBEDTLS_ECP_NIST_OPTIM",
+                                "name": "MBEDTLS_ECP_NIST_OPTIM",
+                                "range": null,
+                                "title": "NIST 'modulo p' optimisations",
+                                "type": "bool"
+                            }
+                        ],
                         "depends_on": null,
                         "help": null,
                         "id": "MBEDTLS_ECP_C",
@@ -17308,177 +16824,6 @@
                         "range": null,
                         "title": "Elliptic Curve Ciphers",
                         "type": "menu"
-                    },
-                    {
-                        "children": [],
-                        "depends_on": null,
-                        "help": "Enable DHM. Needed to use DHE-xxx TLS ciphersuites.\n\nNote that the security of Diffie-Hellman key exchanges depends on\na suitable prime being used for the exchange. Please see detailed\nwarning text about this in file `mbedtls/dhm.h` file.",
-                        "id": "MBEDTLS_DHM_C",
-                        "name": "MBEDTLS_DHM_C",
-                        "range": null,
-                        "title": "Diffie-Hellman-Merkle key exchange (DHM)",
-                        "type": "bool"
-                    },
-                    {
-                        "children": [
-                            {
-                                "children": [],
-                                "depends_on": "MBEDTLS_ECDH_C",
-                                "help": "Enable ECDSA. Needed to use ECDSA-xxx TLS ciphersuites.",
-                                "id": "MBEDTLS_ECDSA_C",
-                                "name": "MBEDTLS_ECDSA_C",
-                                "range": null,
-                                "title": "Elliptic Curve DSA",
-                                "type": "bool"
-                            }
-                        ],
-                        "depends_on": "MBEDTLS_ECP_C",
-                        "help": "Enable ECDH. Needed to use ECDHE-xxx TLS ciphersuites.",
-                        "id": "MBEDTLS_ECDH_C",
-                        "name": "MBEDTLS_ECDH_C",
-                        "range": null,
-                        "title": "Elliptic Curve Diffie-Hellman (ECDH)",
-                        "type": "bool"
-                    },
-                    {
-                        "children": [],
-                        "depends_on": "MBEDTLS_ECP_C",
-                        "help": "Enable ECJPAKE. Needed to use ECJPAKE-xxx TLS ciphersuites.",
-                        "id": "MBEDTLS_ECJPAKE_C",
-                        "name": "MBEDTLS_ECJPAKE_C",
-                        "range": null,
-                        "title": "Elliptic curve J-PAKE",
-                        "type": "bool"
-                    },
-                    {
-                        "children": [],
-                        "depends_on": "MBEDTLS_ECP_C",
-                        "help": "Enable support for SECP192R1 Elliptic Curve.",
-                        "id": "MBEDTLS_ECP_DP_SECP192R1_ENABLED",
-                        "name": "MBEDTLS_ECP_DP_SECP192R1_ENABLED",
-                        "range": null,
-                        "title": "Enable SECP192R1 curve",
-                        "type": "bool"
-                    },
-                    {
-                        "children": [],
-                        "depends_on": "MBEDTLS_ECP_C",
-                        "help": "Enable support for SECP224R1 Elliptic Curve.",
-                        "id": "MBEDTLS_ECP_DP_SECP224R1_ENABLED",
-                        "name": "MBEDTLS_ECP_DP_SECP224R1_ENABLED",
-                        "range": null,
-                        "title": "Enable SECP224R1 curve",
-                        "type": "bool"
-                    },
-                    {
-                        "children": [],
-                        "depends_on": "MBEDTLS_ECP_C",
-                        "help": "Enable support for SECP256R1 Elliptic Curve.",
-                        "id": "MBEDTLS_ECP_DP_SECP256R1_ENABLED",
-                        "name": "MBEDTLS_ECP_DP_SECP256R1_ENABLED",
-                        "range": null,
-                        "title": "Enable SECP256R1 curve",
-                        "type": "bool"
-                    },
-                    {
-                        "children": [],
-                        "depends_on": "MBEDTLS_ECP_C",
-                        "help": "Enable support for SECP384R1 Elliptic Curve.",
-                        "id": "MBEDTLS_ECP_DP_SECP384R1_ENABLED",
-                        "name": "MBEDTLS_ECP_DP_SECP384R1_ENABLED",
-                        "range": null,
-                        "title": "Enable SECP384R1 curve",
-                        "type": "bool"
-                    },
-                    {
-                        "children": [],
-                        "depends_on": "MBEDTLS_ECP_C",
-                        "help": "Enable support for SECP521R1 Elliptic Curve.",
-                        "id": "MBEDTLS_ECP_DP_SECP521R1_ENABLED",
-                        "name": "MBEDTLS_ECP_DP_SECP521R1_ENABLED",
-                        "range": null,
-                        "title": "Enable SECP521R1 curve",
-                        "type": "bool"
-                    },
-                    {
-                        "children": [],
-                        "depends_on": "MBEDTLS_ECP_C",
-                        "help": "Enable support for SECP192K1 Elliptic Curve.",
-                        "id": "MBEDTLS_ECP_DP_SECP192K1_ENABLED",
-                        "name": "MBEDTLS_ECP_DP_SECP192K1_ENABLED",
-                        "range": null,
-                        "title": "Enable SECP192K1 curve",
-                        "type": "bool"
-                    },
-                    {
-                        "children": [],
-                        "depends_on": "MBEDTLS_ECP_C",
-                        "help": "Enable support for SECP224K1 Elliptic Curve.",
-                        "id": "MBEDTLS_ECP_DP_SECP224K1_ENABLED",
-                        "name": "MBEDTLS_ECP_DP_SECP224K1_ENABLED",
-                        "range": null,
-                        "title": "Enable SECP224K1 curve",
-                        "type": "bool"
-                    },
-                    {
-                        "children": [],
-                        "depends_on": "MBEDTLS_ECP_C",
-                        "help": "Enable support for SECP256K1 Elliptic Curve.",
-                        "id": "MBEDTLS_ECP_DP_SECP256K1_ENABLED",
-                        "name": "MBEDTLS_ECP_DP_SECP256K1_ENABLED",
-                        "range": null,
-                        "title": "Enable SECP256K1 curve",
-                        "type": "bool"
-                    },
-                    {
-                        "children": [],
-                        "depends_on": "MBEDTLS_ECP_C",
-                        "help": "support for DP Elliptic Curve.",
-                        "id": "MBEDTLS_ECP_DP_BP256R1_ENABLED",
-                        "name": "MBEDTLS_ECP_DP_BP256R1_ENABLED",
-                        "range": null,
-                        "title": "Enable BP256R1 curve",
-                        "type": "bool"
-                    },
-                    {
-                        "children": [],
-                        "depends_on": "MBEDTLS_ECP_C",
-                        "help": "support for DP Elliptic Curve.",
-                        "id": "MBEDTLS_ECP_DP_BP384R1_ENABLED",
-                        "name": "MBEDTLS_ECP_DP_BP384R1_ENABLED",
-                        "range": null,
-                        "title": "Enable BP384R1 curve",
-                        "type": "bool"
-                    },
-                    {
-                        "children": [],
-                        "depends_on": "MBEDTLS_ECP_C",
-                        "help": "support for DP Elliptic Curve.",
-                        "id": "MBEDTLS_ECP_DP_BP512R1_ENABLED",
-                        "name": "MBEDTLS_ECP_DP_BP512R1_ENABLED",
-                        "range": null,
-                        "title": "Enable BP512R1 curve",
-                        "type": "bool"
-                    },
-                    {
-                        "children": [],
-                        "depends_on": "MBEDTLS_ECP_C",
-                        "help": "Enable support for CURVE25519 Elliptic Curve.",
-                        "id": "MBEDTLS_ECP_DP_CURVE25519_ENABLED",
-                        "name": "MBEDTLS_ECP_DP_CURVE25519_ENABLED",
-                        "range": null,
-                        "title": "Enable CURVE25519 curve",
-                        "type": "bool"
-                    },
-                    {
-                        "children": [],
-                        "depends_on": "MBEDTLS_ECP_C",
-                        "help": "NIST 'modulo p' optimisations increase Elliptic Curve operation performance.\n\nDisabling this option saves some code size.\n\n# end of Elliptic Curve options",
-                        "id": "MBEDTLS_ECP_NIST_OPTIM",
-                        "name": "MBEDTLS_ECP_NIST_OPTIM",
-                        "range": null,
-                        "title": "NIST 'modulo p' optimisations",
-                        "type": "bool"
                     },
                     {
                         "children": [],
@@ -17948,7 +17293,7 @@
                     {
                         "children": [],
                         "depends_on": null,
-                        "help": "Set to true if a specific implementation of message outbox is needed (e.g. persistent outbox in NVM or\nsimilar).\nNote: Implementation of the custom outbox must be added to the mqtt component. These CMake commands\ncould be used to append the custom implementation to lib-mqtt sources:\nidf_component_get_property(mqtt mqtt COMPONENT_LIB)\nset_property(TARGET ${mqtt} PROPERTY SOURCES ${PROJECT_DIR}/custom_outbox.c APPEND)",
+                        "help": "Set to true if a specific implementation of message outbox is needed (e.g. persistant outbox in NVM or\nsimilar).",
                         "id": "MQTT_CUSTOM_OUTBOX",
                         "name": "MQTT_CUSTOM_OUTBOX",
                         "range": null,
@@ -18264,7 +17609,7 @@
                                     {
                                         "children": [],
                                         "depends_on": "<choice OPENTHREAD_DEVICE_TYPE>",
-                                        "help": "Select this to enable Radio Only Device which can only forward 15.4 packets to the host.\nThe OpenThread stack will be run on the host and OpenThread will have minimal footprint on the\nradio only device.",
+                                        "help": "Select this to enable Radio Only Device which cannot can only forward 15.4 packets to the host.\nThe OpenThread stack will be run on the host and OpenThread will have minimal footprint on the\nradio only device.",
                                         "id": "OPENTHREAD_RADIO",
                                         "name": "OPENTHREAD_RADIO",
                                         "range": null,
@@ -18320,18 +17665,7 @@
                                 "type": "bool"
                             },
                             {
-                                "children": [
-                                    {
-                                        "children": [],
-                                        "depends_on": "OPENTHREAD_BORDER_ROUTER",
-                                        "help": "Select this option to enable sending 15.4 frames through the backbone interface.",
-                                        "id": "OPENTHREAD_TREL",
-                                        "name": "OPENTHREAD_TREL",
-                                        "range": null,
-                                        "title": "Enable Thread Radio Encapsulation Link",
-                                        "type": "bool"
-                                    }
-                                ],
+                                "children": [],
                                 "depends_on": "OPENTHREAD_ENABLED",
                                 "help": "Select this option to enable border router features in OpenThread.",
                                 "id": "OPENTHREAD_BORDER_ROUTER",
@@ -18633,7 +17967,7 @@
                             }
                         ],
                         "depends_on": null,
-                        "help": "This allows to yield the CPUs between erase commands.\nPrevents starvation of other tasks.\nPlease use this configuration together with ``SPI_FLASH_ERASE_YIELD_DURATION_MS`` and\n``SPI_FLASH_ERASE_YIELD_TICKS`` after carefully checking flash datasheet to avoid a\nwatchdog timeout.\nFor more information, please check `SPI Flash API` reference documenation\nunder section `OS Function`.",
+                        "help": "This allows to yield the CPUs between erase commands.\nPrevents starvation of other tasks.",
                         "id": "SPI_FLASH_YIELD_DURING_ERASE",
                         "name": "SPI_FLASH_YIELD_DURING_ERASE",
                         "range": null,
@@ -18954,7 +18288,7 @@
                     {
                         "children": [],
                         "depends_on": "SPIFFS_META_LENGTH >= 8",
-                        "help": "If this option is not set, the time field is 32 bits (up to 2106 year),\notherwise it is 64 bits and make sure it matches SPIFFS_META_LENGTH.\nIf the chip already has the spiffs image with the time field = 32 bits\nthen this option cannot be applied in this case.\nErase it first before using this option.\nTo resolve the Y2K38 problem for the spiffs, use a toolchain with\n64-bit time_t support.",
+                        "help": "If this option is not set, the time field is 32 bits (up to 2106 year),\notherwise it is 64 bits and make sure it matches SPIFFS_META_LENGTH.\nIf the chip already has the spiffs image with the time field = 32 bits\nthen this option cannot be applied in this case.\nErase it first before using this option.\nTo resolve the Y2K38 problem for the spiffs, use a toolchain with support\ntime_t 64 bits (see SDK_TOOLCHAIN_SUPPORTS_TIME_WIDE_64_BITS).",
                         "id": "SPIFFS_MTIME_WIDE_64_BITS",
                         "name": "SPIFFS_MTIME_WIDE_64_BITS",
                         "range": null,
@@ -19257,7 +18591,7 @@
                                                 "type": "int"
                                             }
                                         ],
-                                        "depends_on": "TINYUSB_CDC_COUNT < 2 && TINYUSB",
+                                        "depends_on": "TINYUSB",
                                         "help": "Enable TinyUSB MSC feature.",
                                         "id": "TINYUSB_MSC_ENABLED",
                                         "name": "TINYUSB_MSC_ENABLED",
@@ -19275,16 +18609,6 @@
                                 "children": [
                                     {
                                         "children": [
-                                            {
-                                                "children": [],
-                                                "depends_on": "TINYUSB_CDC_ENABLED && TINYUSB",
-                                                "help": "Number of independent serial ports.",
-                                                "id": "TINYUSB_CDC_COUNT",
-                                                "name": "TINYUSB_CDC_COUNT",
-                                                "range": null,
-                                                "title": "CDC Channel Count",
-                                                "type": "int"
-                                            },
                                             {
                                                 "children": [],
                                                 "depends_on": "TINYUSB_CDC_ENABLED && TINYUSB",
@@ -19807,6 +19131,24 @@
         "depends_on": null,
         "id": "component-config",
         "title": "Component config",
+        "type": "menu"
+    },
+    {
+        "children": [
+            {
+                "children": [],
+                "depends_on": null,
+                "help": "Soc, esp32, and driver components, the most common\ncomponents. Some header of these components are included\nimplicitly by headers of other components before IDF v4.0.\nIt's not required for high-level components, but still\nincluded through long header chain everywhere.\n\nThis is harmful to the modularity. So it's changed in IDF\nv4.0.\n\nYou can still include these headers in a legacy way until it\nis totally deprecated by enable this option.",
+                "id": "LEGACY_INCLUDE_COMMON_HEADERS",
+                "name": "LEGACY_INCLUDE_COMMON_HEADERS",
+                "range": null,
+                "title": "Include headers across components as before IDF v4.0",
+                "type": "bool"
+            }
+        ],
+        "depends_on": null,
+        "id": "compatibility-options",
+        "title": "Compatibility options",
         "type": "menu"
     }
 ]

@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/cjia/esp/hello_world'
+make: Leaving directory '/home/cjia/esp/hello_world'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
