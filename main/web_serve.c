@@ -2,6 +2,11 @@
 
 #include "main.h"
 #include "web_serve.h"
+#include "EPD.h"
+
+uint8_t gImage111[2756]={0};
+static SemaphoreHandle_t Web_Epd_Thresholding_Date_Semap;
+
 struct file_server_data
 {
     /* Base path of file storage */
@@ -73,7 +78,6 @@ static esp_err_t ret_upload_post_handler(httpd_req_t *req)
 
     while (remaining > 0)
     {
-
         ESP_LOGI(TAG, "Remaining size : %d", remaining);
         /* Receive the file part by part into a buffer */
         if ((received = httpd_req_recv(req, buf, MIN(remaining, SCRATCH_BUFSIZE))) <= 0)
@@ -83,7 +87,6 @@ static esp_err_t ret_upload_post_handler(httpd_req_t *req)
                 /* Retry if timeout occurred */
                 continue;
             }
-
             /* In case of unrecoverable error,
              * close and delete the unfinished file*/
             fclose(fd);
@@ -94,7 +97,9 @@ static esp_err_t ret_upload_post_handler(httpd_req_t *req)
             httpd_resp_send_err(req, HTTPD_500_INTERNAL_SERVER_ERROR, "Failed to receive file");
             return ESP_FAIL;
         }
+        ESP_LOGI(TAG, "received = %d",received);
         /* Write buffer content to file on storage */
+
         if (received && (received != fwrite(buf, 1, received, fd)))
         {
             /* Couldn't write everything to file!
@@ -106,18 +111,22 @@ static esp_err_t ret_upload_post_handler(httpd_req_t *req)
             httpd_resp_send_err(req, HTTPD_500_INTERNAL_SERVER_ERROR, "Failed to write file to storage");
             return ESP_FAIL;
         }
-    fwrite(buf, sizeof(buf) , 1, fd );
-    ESP_LOGI(TAG, "File written");
-    /* Keep track of remaining size of
-     * the file left to be uploaded */
-    remaining -= received;
-    }
-    fclose(fd);
-    ESP_LOGI(TAG, "File reception complete");
-    httpd_resp_set_status(req, "303 See Other");
-    httpd_resp_set_hdr(req, "Location", "/");
-    httpd_resp_sendstr(req, "File uploaded successfully");
-    return ESP_OK;
+            //ESP_LOGI(TAG, "date sum = 2756");
+        ESP_LOGI(TAG, "File written");
+        /* Keep track of remaining size of
+         * the file left to be uploaded */
+        remaining -= received;
+        }
+
+        fclose(fd);
+        ESP_LOGI(TAG, "File reception complete");
+        httpd_resp_set_status(req, "303 See Other");
+        httpd_resp_set_hdr(req, "Location", "/");
+        httpd_resp_sendstr(req, "File uploaded successfully");
+
+        xSemaphoreGive(Web_Epd_Thresholding_Date_Semap);
+
+        return ESP_OK;
 }
 static esp_err_t rest_common_get_handler(httpd_req_t *req)
 {
@@ -125,7 +134,7 @@ static esp_err_t rest_common_get_handler(httpd_req_t *req)
     rest_server_context_t *rest_context = (rest_server_context_t *)req->user_ctx;
     strlcpy(filepath, rest_context->base_path, sizeof(filepath));
 
-    ESP_LOGI(TAG, "filepath=%s \nreq->uri=%s \n", filepath, req->uri);
+    ESP_LOGI(TAG, "filepath=%s req->uri=%s \n", filepath, req->uri);
     if (req->uri[strlen(req->uri) - 1] == '/')
     {
         strlcat(filepath, "/index.html", sizeof(filepath));
@@ -174,12 +183,43 @@ static esp_err_t rest_common_get_handler(httpd_req_t *req)
     return ESP_OK;
 }
 
+
+void Web_Epd_Thresholding_Date_Task(void *pvParam)
+{
+    while (1)
+    {
+        if(xSemaphoreTake(Web_Epd_Thresholding_Date_Semap, 10) == pdTRUE)
+        {
+            printf("Web_Epd_Thresholding_Date_Task\n");
+            FILE *fd = NULL;
+            char *filepath = "/www/sa.txt";
+            fd = fopen(filepath, "w");
+            if (!fd)
+            {
+                ESP_LOGE(TAG, "Failed to create file : %s \n", filepath);
+            }
+
+            if(fread(gImage111,1,2756,fd))
+            {
+                ESP_LOGE(TAG, "Failed Open file \n");
+            }
+            PIC_display_Clean();
+            printf("完成刷新");
+        }
+        vTaskDelay( 1 / portTICK_PERIOD_MS);
+    }
+
+}
+
 void html_int()
 {
     rest_server_context_t *rest_context = calloc(1, sizeof(rest_server_context_t));
     httpd_handle_t server = NULL;
     httpd_config_t config = HTTPD_DEFAULT_CONFIG();
     config.uri_match_fn = httpd_uri_match_wildcard;
+
+    Web_Epd_Thresholding_Date_Semap=xSemaphoreCreateBinary();
+    xTaskCreate(Web_Epd_Thresholding_Date_Task,"Web_Epd",2048,NULL,1,NULL);
 
     ESP_LOGI(TAG, "Starting HTTP Server on port: '%d'", config.server_port);
     if (httpd_start(&server, &config) != ESP_OK)
