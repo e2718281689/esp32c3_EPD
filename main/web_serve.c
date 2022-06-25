@@ -193,7 +193,7 @@ void Web_Epd_Thresholding_Date_Task(void *pvParam)
             printf("Web_Epd_Thresholding_Date_Task\n");
             FILE *fd = NULL;
             char *filepath = "/www/sa.txt";
-            fd = fopen(filepath, "w");
+            fd = fopen(filepath, "r");
             if (!fd)
             {
                 ESP_LOGE(TAG, "Failed to create file : %s \n", filepath);
@@ -203,7 +203,14 @@ void Web_Epd_Thresholding_Date_Task(void *pvParam)
             {
                 ESP_LOGE(TAG, "Failed Open file \n");
             }
-            PIC_display_Clean();
+
+            PIC_display_White(gImage111);
+            EPD_refresh();
+            EPD_sleep();
+            for (int i = 0; i < 2756; ++i) {
+                printf("%d ",gImage111[i]);
+            }
+
             printf("完成刷新");
         }
         vTaskDelay( 1 / portTICK_PERIOD_MS);

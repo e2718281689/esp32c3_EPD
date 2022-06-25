@@ -58,11 +58,11 @@
                 {
                     //image[Math.trunc(row/8)+col*13] 纵走
                     //image[Math.trunc(row/8)+Math.trunc(row/8)*212] 横走
-                    image[image[col+Math.trunc(row/8)*212]]&= ~(1 << (row%8));
+                    image[image[Math.trunc(row/8)+col*13]]&= ~(1 << (row%8));
                 }
                 else if(Number(h)==255)
                 {
-                    image[col+Math.trunc(row/8)*212]|= 0x01 << (row % 8); 
+                    image[Math.trunc(row/8)+col*13]|= 0x01 << (row % 8);
                 }
                 //console.log("img="+image[Math.trunc(row/8)+col*13]+"row="+row+"col="+col);
             }
@@ -72,8 +72,13 @@
             "date":""
         };
 
-        for (let index = 0; index < 212*104/8; index++) {
-            ooo.date=ooo.date+String.fromCharCode(image[index]);
+        // for (let index = 0; index < 212*104/8; index++) {
+        //     ooo.date=ooo.date+String.fromCharCode(image[index]);
+        // }
+        for (let col = 0; col < 212; col++) {
+            for (let row = 0; row <13; row++) {
+                ooo.date=ooo.date+String.fromCharCode(image[row*212+col]);
+            }
         }
          var xhttp = new XMLHttpRequest();
          xhttp.open("POST", "/upload/image", true);

@@ -52,7 +52,6 @@ void mount_sdcard(void)
     sdmmc_card_print_info(stdout, card);
 
 
-    esp_vfs_fat_sdcard_unmount(SD_MOUNT_POINT,card);
-    spi_bus_free(SPI2_HOST);
-    //spi_bus_remove_device();
+//    esp_vfs_fat_sdcard_unmount(SD_MOUNT_POINT,card);
+//    spi_bus_free(SPI2_HOST);
 }
