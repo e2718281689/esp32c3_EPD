@@ -1,9 +1,0 @@
-/home/cjia/clion-2022.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/cjia/clion-2022.1.2/bin/ninja/linux/ninja -G Ninja -S /home/cjia/esp/hello_world -B /home/cjia/esp/hello_world/cmake-build-debug
-CMake Error at CMakeLists.txt:5 (include):
-  include could not find requested file:
-
-    /tools/cmake/project.cmake
-
-
--- Configuring incomplete, errors occurred!
-See also "/home/cjia/esp/hello_world/cmake-build-debug/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,125 @@
+//
+// Created by cjia on 22-7-12.
+//
+#include <driver/i2s.h>
+#include "main.h"
+
+#define  path "/sdcard"
+
+#define I2S_BCK_IO      (GPIO_NUM_4)
+#define I2S_WS_IO       (GPIO_NUM_5)
+#define I2S_DO_IO       (GPIO_NUM_3)
+#define I2S_DI_IO       (-1)
+#define I2S_NUM         (0)
+
+static struct {
+    u8_t wav_id[4];
+    u8_t wav_Size[4];
+    u8_t wav_Type[4];
+
+    u8_t wav_fmt[4];
+    u8_t wav_Size1[16];
+    u8_t wav_AudioFormat[2];
+    u8_t wav_NumChannels[2];
+    u8_t wav_SampleRate[4];
+    u8_t wav_ByteRate[4];
+    u8_t wav_BlockAlign[2];
+    u8_t wav_BitsPerSample[2];
+    u8_t wav_Additional_Information[2];
+
+    u8_t wav_LIST_id[4];
+    u8_t wav_LIST_sum[4];
+    u8_t *wav_LIST_date;
+
+    u8_t wav_Audio_Date_Name[4];
+    u8_t wav_Audio_date_Sum[4];
+    u16_t wav_Audio_date[4096];
+
+
+} wav_date;
+
+void i2s_wav(void)
+{
+
+
+    DIR *d; //声明一个句柄
+    struct dirent *file; //readdir函数的返回值就存放在这个结构体中
+    struct stat sb;
+    if(!(d = opendir(path)))
+    {
+        printf("error opendir %s!!!\n",path);
+    }
+    while((file = readdir(d)) != NULL)
+    {
+        printf("%s \n",file->d_name);
+    }
+    FILE *file_111;
+    char xxx[4];
+
+    //file_111=fopen("/sdcard/123QWE.WAV","r");
+    file_111=fopen("/sdcard/456.WAV","r");
+    fread(wav_date.wav_id,                              1,4,    file_111);
+    fread(wav_date.wav_Size,                            1,4,    file_111);
+    fread(wav_date.wav_Type,                            1,4,    file_111);
+
+    fread(wav_date.wav_fmt,                             1,4,    file_111);
+    fread(wav_date.wav_Size1,                           1,4,    file_111);
+    fread(wav_date.wav_AudioFormat,                     1,2,    file_111);
+    fread(wav_date.wav_NumChannels,                     1,2,    file_111);
+    fread(wav_date.wav_SampleRate,                      1,4,    file_111);
+    fread(wav_date.wav_ByteRate,                        1,4,    file_111);
+    fread(wav_date.wav_BlockAlign,                      1,2,    file_111);
+    fread(wav_date.wav_BitsPerSample,                   1,2,    file_111);
+    fread(wav_date.wav_Additional_Information,          1,2,    file_111);
+    if((wav_date.wav_Additional_Information[0]!=0)||(wav_date.wav_Additional_Information[1]!=0))
+    {
+        fseek(file_111,-2,SEEK_CUR);
+        fread(wav_date.wav_LIST_id,          1,4,    file_111);
+        fread(wav_date.wav_LIST_sum,          1,4,    file_111);
+        wav_date.wav_LIST_date=(u8_t *)malloc(wav_date.wav_LIST_sum[0]);
+        fread(wav_date.wav_LIST_date,          1,wav_date.wav_LIST_sum[0],    file_111);
+    }
+
+    fread(wav_date.wav_Audio_Date_Name,                 1,4,    file_111);
+    fread(wav_date.wav_Audio_date_Sum,                  1,4,    file_111);
+
+
+    for (int i = 0; i < 4; ++i) {
+        printf("%c ",wav_date.wav_Audio_Date_Name[i]);
+    }
+    printf("\n    \n  ");
+
+    i2s_config_t i2s_config = {
+            .mode = I2S_MODE_MASTER | I2S_MODE_TX,
+            .sample_rate = 44100,
+            .bits_per_sample = I2S_BITS_PER_SAMPLE_16BIT,
+            .channel_format = I2S_CHANNEL_FMT_RIGHT_LEFT,
+            .communication_format = I2S_COMM_FORMAT_STAND_I2S,
+            .dma_buf_count = 6,
+            .dma_buf_len = 256,
+            .use_apll = true,
+            .tx_desc_auto_clear = true,
+            .intr_alloc_flags = ESP_INTR_FLAG_LEVEL2 | ESP_INTR_FLAG_IRAM,                              //Interrupt level 1
+    };
+    i2s_pin_config_t pin_config = {
+            .mck_io_num = I2S_PIN_NO_CHANGE,
+            .bck_io_num = I2S_BCK_IO,
+            .ws_io_num = I2S_WS_IO,
+            .data_out_num = I2S_DO_IO,
+            .data_in_num = I2S_DI_IO                                               //Not used
+    };
+    i2s_driver_install(I2S_NUM, &i2s_config, 0, NULL);
+    i2s_set_pin(I2S_NUM, &pin_config);
+
+
+    u8_t ssss[0xaa];
+    fread(ssss,1,0xb2,file_111);
+    size_t bytes_write = 0;
+    for (int i = 0; i < 1000000000; ++i) {
+        fread(wav_date.wav_Audio_date,2,4096,file_111);
+        i2s_write(I2S_NUM, wav_date.wav_Audio_date,4096*2, &bytes_write, portMAX_DELAY);
+        //i2s_zero_dma_buffer(I2S_NUM);
+        //vTaskDelay(10/portTICK_RATE_MS);
+        printf("[music] i2s music played, %d bytes are written \n",bytes_write);
+    }
+}
