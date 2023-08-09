@@ -1,5 +1,6 @@
 #pragma once
 
+#include "stdio.h"
 
 void EPD_init(void);
 void EPD_refresh(void);

@@ -1,6 +1,14 @@
 
 #include "img_EPD.h"
 #include "fsdf.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "esp_system.h"
+#include "driver/spi_master.h"
+#include "driver/gpio.h"
 
 #define EPD_NUM_MISO 2
 #define EPD_NUM_MOSI 7
@@ -230,14 +238,7 @@ void EPD_init(void)//��ʼ��
     EPD_W21_WriteCMD(0X50);  // VCOM AND DATA INTERVAL SETTING
     EPD_W21_WriteDATA(0x77); // WBmode:VBDF 17|D7 VBDW 97 VBDB 57		WBRmode:VBDF F7 VBDW 77 VBDB 37  VBDR B7  ��߿���ɫ
 }
-void EPD_Printf(uint8_t *picData, uint8_t x, uint8_t y,char* mumber)
-{
 
-    for (uint8_t i = 0;  mumber[i]!='\r'; i++)
-    {
-        EPD_Write(picData,x+i*6,y,mumber[i]);
-    }
-}
 void EPD_Write(uint8_t *picData, uint8_t x, uint8_t y, char zi)
 {
     // uint8_t* pp=chF6x8[(int)zi-32];
@@ -249,7 +250,14 @@ void EPD_Write(uint8_t *picData, uint8_t x, uint8_t y, char zi)
         Wirte_EPD_pieco(picData, x + i, y,ss);
     }
 }
+void EPD_Printf(uint8_t *picData, uint8_t x, uint8_t y,char* mumber)
+{
 
+    for (uint8_t i = 0;  mumber[i]!='\r'; i++)
+    {
+        EPD_Write(picData,x+i*6,y,mumber[i]);
+    }
+}
 void EPD_Write_16(uint8_t *picData, uint8_t x, uint8_t y, char* zi)
 {
      for (uint8_t i = 0; i < 16; i++)

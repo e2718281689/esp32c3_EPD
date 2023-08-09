@@ -8,6 +8,7 @@
 #include "nvs_flash.h"
 #include "esp_event.h"
 #include "esp_netif.h"
+#include "freertos/event_groups.h"
 //#include "protocol_examples_common.h"
 
 #include "freertos/FreeRTOS.h"

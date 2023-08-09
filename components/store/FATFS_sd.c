@@ -1,8 +1,13 @@
 
 #include "FATFS_sd.h"
-#include "driver/spi_common_internal.h"
+#include <string.h>
+#include <sys/unistd.h>
+#include <sys/stat.h>
+#include "esp_vfs_fat.h"
+#include "sdmmc_cmd.h"
 
 
+static sdmmc_card_t* card;
 sdmmc_host_t host = SDSPI_HOST_DEFAULT();
 #define SD_MOUNT_POINT      "/sdcard"
 #define MOUNT_POINT "/sdcard"
@@ -62,6 +67,6 @@ void mount_sdcard(void)
     sdmmc_card_print_info(stdout, card);
     printf("\n");
 
-//    esp_vfs_fat_sdcard_unmount(SD_MOUNT_POINT,card);
-//    spi_bus_free(SPI2_HOST);
+   esp_vfs_fat_sdcard_unmount(SD_MOUNT_POINT,card);
+   spi_bus_free(SPI2_HOST);
 }

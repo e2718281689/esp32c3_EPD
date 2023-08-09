@@ -3,6 +3,16 @@
 #include "web_serve.h"
 #include "EPD.h"
 
+#include <esp_wifi.h>
+#include <esp_event.h>
+#include <esp_log.h>
+#include <esp_system.h>
+#include <nvs_flash.h>
+#include <sys/param.h>
+#include "esp_netif.h"
+#include "esp_eth.h"
+#include "esp_vfs.h"
+#include <esp_http_server.h>
 static const char *TAG = "web_serve";
 #define FILE_PATH_MAX (ESP_VFS_PATH_MAX + 128)
 
@@ -197,31 +207,31 @@ void Web_Epd_Thresholding_Date_Task(void *pvParam)
         if(xSemaphoreTake(Web_Epd_Thresholding_Date_Semap, 10) == pdTRUE)
         {
             printf("Web_Epd_Thresholding_Date_Task\n");
-            FILE *fd = NULL;
-            char *filepath = "/www/sa.txt";
-            fd = fopen(filepath, "r");
-            if (!fd)
-            {
-                ESP_LOGE(TAG, "Failed to create file : %s \n", filepath);
-            }
+        //     FILE *fd = NULL;
+        //     char *filepath = "/www/sa.txt";
+        //     fd = fopen(filepath, "r");
+        //     if (!fd)
+        //     {
+        //         ESP_LOGE(TAG, "Failed to create file : %s \n", filepath);
+        //     }
 
-            if(fread(gImage111,1,2756,fd))
-            {
-                ESP_LOGE(TAG, "Failed Open file \n");
-            }
-            for(uint16_t xxx=0;xxx<2756;xxx++)
-            {
-                uint32_t sdsd=(((gImage111[xxx] * 0x80200802ULL) & 0x0884422110ULL) * 0x0101010101ULL >> 32);
-                gImage111[xxx]=(uint8_t)sdsd;
-            }
-            PIC_display_White(gImage111);
-            EPD_refresh();
-            EPD_sleep();
-            for (int i = 0; i < 2756; ++i) {
-                printf("%d ",gImage111[i]);
-            }
+        //     if(fread(gImage111,1,2756,fd))
+        //     {
+        //         ESP_LOGE(TAG, "Failed Open file \n");
+        //     }
+        //     for(uint16_t xxx=0;xxx<2756;xxx++)
+        //     {
+        //         uint32_t sdsd=(((gImage111[xxx] * 0x80200802ULL) & 0x0884422110ULL) * 0x0101010101ULL >> 32);
+        //         gImage111[xxx]=(uint8_t)sdsd;
+        //     }
+        //     PIC_display_White(gImage111);
+        //     EPD_refresh();
+        //     EPD_sleep();
+        //     // for (int i = 0; i < 2756; ++i) {
+        //     //     printf("%d ",gImage111[i]);
+        //     // }
 
-            printf("完成刷新");
+        //     printf("完成刷新");
         }
         vTaskDelay( 1 / portTICK_PERIOD_MS);
     }

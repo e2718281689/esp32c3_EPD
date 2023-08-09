@@ -102,7 +102,6 @@ function image_update()
             }
         }
     }
-
     var img_date=new Array(); //先声明一维
     for(var i=0;i<212;i++){ //一维
         let buffer = new ArrayBuffer(104/8);
@@ -137,6 +136,26 @@ function image_update()
 
     console.log(img_date);
 
+
+    for (let row = 0; row <13; row++) {
+        for (let col = 0; col < 212/2; col++) {
+            let yssy=0;
+            yssy=img_date[col][row];
+            img_date[col][row]=img_date[212-1-col][row];
+            img_date[212-1-col][row]=yssy;
+            //[img_date[col][row],img_date[212-col][row]]=[img_date[212-col][row],img_date[col][row]];
+        }
+    }
+
+    for (let row = 0; row <13; row++) {
+        for (let col = 0; col < 212/2; col++) {
+
+            let B=img_date[col][row];
+            B = ((B * 0x80200802) & 0x0884422110) * 0x0101010101 >> 32;
+            img_date[col][row]=B;
+
+    }
+
     let img_date_sum=0;
     for (let col = 0; col < 212; col++) {
         for (let row = 0; row <13; row++) {
@@ -146,6 +165,8 @@ function image_update()
             img_date_sum++;
         }
     }
+    
+
     console.log(img_date_xxx);
     let xhttp = new XMLHttpRequest();
     xhttp.open("POST", "/upload/image", true);

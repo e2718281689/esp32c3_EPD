@@ -7,7 +7,7 @@
 #include "EPD_console.h"
 #include <dirent.h>
 #include "argtable3/argtable3.h"
-
+#include "esp_console.h"
 static const char *TAG = "EPD_console";
 
 
